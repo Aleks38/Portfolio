@@ -1,6 +1,6 @@
 body
 { 
-    background: linear-gradient(to left, #8800f7, #9d00ff); 
+  background: linear-gradient(to left, #3b53a7, #53004b); 
 }
 .center-div
 {
@@ -10,8 +10,41 @@ body
   right: 0;
   bottom: 0;
   left: 0;
-  width: 100px;
-  height: 100px;
-  background-color: #ccc;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
   border-radius: 3px;
+}
+
+.header-full {
+  width: 100%;
+  height: 100vh;
+}
+
+hr.line {
+  height:1px;
+  width:70%;
+  margin:1px;
+  margin:auto;
+  border: 7px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  opacity: 100;
+}
+
+.theme{
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+hr.vertical{
+  width : 7px;
+  height : 1000px;
+  opacity: 100%;
+  background-color: black;
+}
+
+div{
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
