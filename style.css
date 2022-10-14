@@ -1,6 +1,6 @@
 body
 { 
-  background: linear-gradient(to left, #3b53a7, #53004b); 
+  background-color:#f5f5f6; 
 }
 .center-div
 {
@@ -39,12 +39,31 @@ hr.line {
 
 hr.vertical{
   width : 7px;
-  height : 1000px;
+  height : 200px;
   opacity: 100%;
-  background-color: black;
 }
 
 div{
   margin-top: 5em;
   margin-bottom: 5em;
 }
+
+.alinea{
+  text-indent: 10px;
+}
+
+.test{
+  background-color: gray;
+  border: 1px solid black;
+}
+
+.lighThemeText
+{
+  color: #283593;
+}
+
+.lighThemeBack
+{
+  background-color: #283593;
+}
+
