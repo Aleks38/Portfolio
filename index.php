@@ -19,15 +19,18 @@
         </div>
 
         <hr class="line">
-        <div class="d-grid col-2 mx-auto my-5">
-            <button type="button" class="btn btn-lg btn-primary rounded-pill theme border-0">Curriculum vitæ</button>
+        <div class="d-grid col-1 mx-auto my-5">
+            <button type="button" class="btn btn-lg btn-primary rounded-pill theme border-0" onclick="location.href='https://1drv.ms/b/s!AoKxhS8d_LSZgbFNVYYgdIJuIOamkg?e=VwYpBF';">
+                Voir CV
+            </button>
         </div>
 
         <div class="container text-center">
-            <div class="row ">
-                <div class="col theme row mb-0">
-                    <div class="mb-0">
-                        <div class="test my-2 fw-bold lighThemeText">
+            <div class="row col-10 mx-auto">
+                <div class="col theme mb-0">
+                    <p class="fs-2 mb-0">PASSE / PRESENT</p>
+                    <div class="mb-0 row">
+                        <div class="test mb-2 mt-0 fw-bold lighThemeText">
                             <p class="text-start">2021 - Ajourd'hui</p>
                         </div>
                         <div class="test offset-md-1 my-2 h-25">
@@ -44,29 +47,25 @@
                 <div class="col-1 theme mb-0">
                     <hr class="vertical mx-auto rounded-5 lighThemeBack">
                 </div>
-                <div class="col theme row mb-0">
-                    <div class="mb-0">
-                        <div class="test my-2 fw-bold lighThemeText">
-                            <p class="text-start">2023 - 2025</p>
+                <div class="col theme mb-0">
+                    <p class="fs-2 mb-0">FUTUR</p>
+                    <div class="mb-0 row">
+                        <div class="test mb-2 mt-0 fw-bold lighThemeText">
+                            <p class="text-start">2023-2025</p>
                         </div>
-
                         <div class="test offset-md-1 my-2 h-25">
-                            <p class="text-start">Master Développement logiciel</p>
+                            <p class="text-start">Master Développement logiciel </p>
                         </div>
-                        
                         <div class="test my-2 fw-bold lighThemeText">
                             <p class="text-start">2022 - 2023</p>
                         </div>
                         <div class="test offset-md-1 my-2 h-25">
-                            <p class="text-start">Licence Pro dans le développement informatique</p>
-                        </div>
+                            <p class="text-start">Bac Général option Mathématques, Physique Chimie et Numérique et Science Informatique </p>
+                        </div>  
                     </div>
                 </div>
-                
                 <p class="text-start fs-6">**Solution logiciel et application métier </p>
             </div>
-            
-
         </div>
     </body>
 </html>
