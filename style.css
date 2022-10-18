@@ -10,8 +10,6 @@ body
   right: 0;
   bottom: 0;
   left: 0;
-  width: 20em;
-  height: 20em;
 }
 
 .header-full {
@@ -109,4 +107,34 @@ transition: all 0.4s;
 
 .iconPresentation{
   color: black;
+}
+
+.text{
+  --bs-text-opacity: 1;
+  color: #e6e6e8
+}
+
+.text:hover{
+  --bs-text-opacity: 1;
+  color: #0a3d62;
+  
+}
+
+.themeDetail{
+  background-color:#ef3915;
+  border: solid 0em;
+}
+
+.themeDetail:hover{
+  background-color:#e6e6e8;
+  outline: 2px solid #0a3d62;
+  outline-offset: -2px;
+}
+
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 }
