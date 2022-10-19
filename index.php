@@ -71,7 +71,7 @@
                 <ul class="nav flex-column mb-0">
                     <!-- Icone accueil -->
                     <li class="nav-item my-3 ">
-                        <a href="#">
+                        <a href="#accueuil">
                             <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
                                 <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
@@ -81,7 +81,7 @@
                     </li>
                     <!-- Icone pour mon CV -->
                     <li class="nav-item my-3">
-                        <a href="#">
+                        <a href="#cv">
                             <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-file-earmark-person" viewBox="0 0 16 16">
                                 <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
                                 <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z"/>
@@ -91,7 +91,7 @@
                     </li>
                     <!-- Icone pour mes études --> 
                     <li class="nav-item my-3">
-                        <a href="#">
+                        <a href="#monProjet">
                             <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1.5em" height="1.5em" viewBox="0 0 512.004 512.004" xml:space="preserve">
                                 <path d="M496.798,152.612l-230.4-102.4c-3.302-1.468-6.844-2.21-10.394-2.21c-3.541,0-7.091,0.734-10.394,2.21l-230.4,102.4    c-9.242,4.113-15.206,13.278-15.206,23.39s5.956,19.285,15.206,23.39L38.404,209.7v45.457c-14.865,5.299-25.6,19.379-25.6,36.045    
                                 c0,11.87,5.53,22.366,14.02,29.423L1.719,364.119c-3.541,6.127-1.434,13.952,4.685,17.485c2.014,1.161,4.215,1.715,6.391,1.715    c4.429,0,8.721-2.304,11.102-6.4l14.515-25.139v29.022c0,7.074,5.726,12.8,12.8,12.8c7.074,0,12.8-5.726,12.8-12.8V351.78    
@@ -132,7 +132,7 @@
             </div>
         </header>
 
-        <div class="header-full"> 
+        <div class="header-full" id="accueuil" > 
             <div class="center-div mx-auto pp">
                 <img class="pp img-fluid" src="images/photo_de_profile.png">
                 <p class="text-center fs-1 fw-bold mb-0">Da Silva Alexy</p>
@@ -162,52 +162,59 @@
         </div>
 
         <hr class="line lighThemeBack">
-        <div class="mx-auto my-6">
-            <button type="button" class="btn btn-lg rounded-5 themeDetail centered text" onclick="location.href='https://1drv.ms/b/s!AoKxhS8d_LSZgbFNVYYgdIJuIOamkg?e=VwYpBF';">
-                <p class="my-0 mx-4 text-uppercase fw-bold fs-6">Voir CV</p>
+
+        <div class="mx-auto my-14">
+            <button type="button" class="btn btn-lg rounded-5 themeDetail centered textBtn" onclick="location.href='https://1drv.ms/b/s!AoKxhS8d_LSZgbFNVYYgdIJuIOamkg?e=VwYpBF';">
+                <p id="cv" class="my-0 mx-4 text-uppercase fw-bold fs-6">Voir CV</p>
             </button>
         </div>
 
-        <div class="container text-center">
+        <div class="container text-center" id="monProjet">
             <div class="row col-10 mx-auto ">
 
-                <div class="col theme mb-0 rounded-4 mx-2 test2">
-                    <p class="fs-2 mb-0 textLight fw-bold">PASSE / PRESENT</p>
+                <div class="col theme mb-0 rounded-4 mx-2 textMonProjet">
+                    <p class="fs-2 mb-0 fw-bold">PASSE / PRESENT</p>    
                     <div class="mb-0 row">
-                        <div class=" mb-2 mt-0 fw-bold textLight">
+                        <div class=" mb-2 mt-0 fw-bold">
                             <p class="text-start">2021 - Ajourd'hui</p>
                         </div>
-                        <div class="offset-md-1 my-2 col-md-11 textLight">
+                        <div class="offset-md-1 my-2 col-md-11">
                             <p class="text-start">BTS SIO option SLAM** à l’institut supérieur Saint-Denis 07100 Annonay </p>
                         </div>
-                        <div class="my-2 fw-bold textLight">
+                        <div class="my-2 fw-bold">
                             <p class="text-start">2019 - 2021</p>
                         </div>
-                        <div class="offset-md-1 my-2 col-md-11 textLight">
+                        <div class="offset-md-1 my-2 col-md-11">
                             <p class="text-start">Bac Général option Mathématques, Physique Chimie et Numérique et Science Informatique</p>
                         </div>  
                     </div>
                 </div>
 
-                <div class="col theme mb-0 rounded-4 mx-2 test2">
-                    <p class="fs-2 mb-0 textLight fw-bold">PASSE / PRESENT</p>
+                <div class="col theme mb-0 rounded-4 mx-2 textMonProjet">
+                    <p class="fs-2 mb-0 fw-bold">Futur</p>
                     <div class="mb-0 row">
-                        <div class="mb-2 mt-0 fw-bold textLight">
-                            <p class="text-start">2021 - Ajourd'hui</p>
+                        <div class="mb-2 mt-0 fw-bold ">
+                            <p class="text-start">2023 - 2025</p>
                         </div>
-                        <div class="offset-md-1 my-2 col-md-11 textLight">
-                            <p class="text-start">BTS SIO option SLAM** à l’institut supérieur Saint-Denis 07100 Annonay </p>
+                        <div class="offset-md-1 my-2 col-md-11 ">
+                            <p class="text-start">Master Développement logiciel</p>
                         </div>
-                        <div class="my-2 fw-bold textLight">
-                            <p class="text-start">2019 - 2021</p>
+                        <div class="my-2 fw-bold ">
+                            <p class="text-start">2022 - 2023</p>
                         </div>
-                        <div class="offset-md-1 my-2 col-md-11 textLight">
-                            <p class="text-start">Bac Général option Mathématques, Physique Chimi</p>
+                        <div class="offset-md-1 my-2 col-md-11 ">
+                            <p class="text-start">Licence Pro dans le développement informatique</p>
                         </div>  
                     </div>
                 </div>
+
                 <p class="text-start fs-6">**Solution logiciel et application métier </p>
+
             </div>
+        </div>
+
+        <div>
+
         </div>
     </body>
 </html>

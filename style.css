@@ -109,12 +109,12 @@ transition: all 0.4s;
   color: black;
 }
 
-.text{
+.textBtn{
   --bs-text-opacity: 1;
   color: #e6e6e8
 }
 
-.text:hover{
+.textBtn:hover{
   --bs-text-opacity: 1;
   color: #0a3d62;
   
@@ -137,4 +137,14 @@ transition: all 0.4s;
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
+}
+
+.textMonProjet{
+  color: #e6e6e8;
+  background-color: #0a3d62
+}
+
+.my-14{
+  margin-top: 14em;
+  margin-bottom: 14em;
 }
