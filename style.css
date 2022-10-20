@@ -28,7 +28,7 @@ hr.line {
 }
 
 .theme{
-  background: white;
+  background: rgb(240, 7, 7);
   color: black;
   border: 1px solid black;
 }
@@ -37,11 +37,6 @@ hr.vertical{
   width : 6px;
   height : 250px;
   opacity: 100%;
-}
-
-div{
-  margin-top: 5em;
-  margin-bottom: 5em;
 }
 
 .alinea{
@@ -147,4 +142,16 @@ transition: all 0.4s;
 .my-14{
   margin-top: 14em;
   margin-bottom: 14em;
+}
+
+.bg-couleur-full{
+  background-color:#ef3915
+}
+
+.bg-couleur-mid{
+  background-color:#ef3915b2
+}
+
+.bg-couleur-tier{
+  background-color:#ef391577
 }
