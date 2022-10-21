@@ -77,7 +77,6 @@
                                 <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
                             </svg>
                         </a>
-                        
                     </li>
                     <!-- Icone pour mon CV -->
                     <li class="nav-item my-3">
@@ -171,7 +170,7 @@
         <div class="container text-center my-5" id="monProjet">
             <div class="row col-10 mx-auto">
 
-                <div class="col theme mb-0 rounded-4 mx-2 textMonProjet">
+                <div class="col mb-0 rounded-4 mx-2 textMonProjet">
                     <p class="fs-2 mb-0 fw-bold">PASSE / PRESENT</p>    
                     <div class="mb-0 row">
                         <div class=" mb-2 mt-0 fw-bold">
@@ -189,7 +188,7 @@
                     </div>
                 </div>
 
-                <div class="col theme mb-0 rounded-4 mx-2 textMonProjet">
+                <div class="col mb-0 rounded-4 mx-2 textMonProjet">
                     <p class="fs-2 mb-0 fw-bold">Futur</p>
                     <div class="mb-0 row">
                         <div class="mb-2 mt-0 fw-bold ">
@@ -211,24 +210,10 @@
         </div>
 
         <!-- Mes compétences -->
-        <div class="container my-14 " id="mesCompetences">
-            <div class="col-10 mx-auto theme px-5 py-5 rounded-5">
+        <div class="container my-14" id="mesCompetences">
+            <div class="col-10 mx-auto px-5 py-5 rounded-5 textMonProjet">
                 <!-- Progress bar PHP -->
                 <div>
-                    <div class="row justify-content-end mb-0">
-                        <div class="row col-11 ">
-                            <div class="col-4">
-                                <p class="text-end my-0">Notion</p>
-                            </div>
-                            <div class="col-4">
-                                <p class="text-end my-0">Maîtrisé</p>
-                            </div>
-                            <div class="col-4">
-                                <p class="text-end my-0">Avancé</p>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="row">
                         <div class="col-lg-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="25" viewBox="0 0 256 134" preserveAspectRatio="xMinYMin meet">
@@ -243,8 +228,8 @@
                             </svg>
                         </div>
                         <div class="col-lg-11 mx-auto my-auto">
-                            <div class="progress" style="height: 1em";>
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-couleur-mid" role="progressbar" aria-label="Info example" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress" style="height: 1.5em";>
+                                <div class="progress-bar bg-couleur-bar " role="progressbar" aria-label="Info example" style="width: 64%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Notion : maîtrisé</div>
                             </div>
                         </div>
                     </div>
@@ -253,21 +238,7 @@
 
                 <!-- Progress bar SQL -->
                 <div>
-                    <div class="row justify-content-end mb-0">
-                        <div class="row col-11 ">
-                            <div class="col-4">
-                                <p class="text-end my-0">Notion</p>
-                            </div>
-                            <div class="col-4">
-                                <p class="text-end my-0">Maîtrisé</p>
-                            </div>
-                            <div class="col-4">
-                                <p class="text-end my-0">Avancé</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
+                    <div class="row my-4">
                         <div class="col-lg-1">
                         <svg width="40" height="40" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                             viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -324,8 +295,8 @@
                         </svg>
                         </div>
                         <div class="col-lg-11 mx-auto my-auto">
-                            <div class="progress" style="height: 1em";>
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-couleur-full" role="progressbar" aria-label="Info example" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress" style="height: 1.5em";>
+                                <div class="progress-bar bg-couleur-bar" role="progressbar" aria-label="Info example" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Notion : Avancé</div>
                             </div>
                         </div>
                     </div>
@@ -334,21 +305,7 @@
 
                 <!-- Progress bar C# -->
                 <div>
-                    <div class="row justify-content-end mb-0">
-                        <div class="row col-11 ">
-                            <div class="col-4">
-                                <p class="text-end my-0">Notion</p>
-                            </div>
-                            <div class="col-4">
-                                <p class="text-end my-0">Maîtrisé</p>
-                            </div>
-                            <div class="col-4">
-                                <p class="text-end my-0">Avancé</p>
-                            </div>
-                        </div>
-                    </div>
-                
-                    <div class="row">
+                    <div class="row my-4">
                         <div class="col-lg-1">
                             <svg width="40" height="40" viewBox="0 0 256 288" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
                                 <g>
@@ -361,8 +318,8 @@
                             </svg>
                         </div>
                         <div class="col-lg-11 mx-auto my-auto">
-                            <div class="progress" style="height: 1em";>
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-couleur-mid" role="progressbar" aria-label="Info example" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress" style="height: 1.5em";>
+                                <div class="progress-bar bg-couleur-bar" role="progressbar" aria-label="Info example" style="width: 66%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Notion : Maîtrisé</div>
                             </div>
                         </div>
                     </div>
@@ -371,21 +328,8 @@
 
                 <!-- Progress bar Python -->
                 <div>
-                    <div class="row justify-content-end mb-0">
-                        <div class="row col-11 ">
-                            <div class="col-4">
-                                <p class="text-end my-0">Notion</p>
-                            </div>
-                            <div class="col-4">
-                                <p class="text-end my-0">Maîtrisé</p>
-                            </div>
-                            <div class="col-4">
-                                <p class="text-end my-0">Avancé</p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="row">
+                    <div class="row mt-4">
                         <div class="col-lg-1">
                         <svg width="40px" height="40px" viewBox="0 0 256 255" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
                             <defs>
@@ -406,8 +350,8 @@
         
                         </div>
                         <div class="col-lg-11 mx-auto my-auto" >
-                            <div class="progress" style="height: 1em";>
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-couleur-tier" role="progressbar" aria-label="Info example" style="width: 32%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress" style="height: 1.5em";>
+                                <div class="progress-bar bg-couleur-bar" role="progressbar" aria-label="Info example" style="width: 33%">Notion : De base</div>
                             </div>
                         </div>
                     </div>
