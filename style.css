@@ -182,13 +182,13 @@ transition: all 0.4s;
 .btnMore {
   color: white;
   background-color: rgb(240, 7, 7);
-  border-color:  4em solid white;
+  border: 2px solid white;
 }
 
 .btnMore:hover {
   color:rgb(240, 7, 7);
   background-color: white;
-  border-color: 4em solid rgb(240, 7, 7);
+  border: 2px solid rgb(240, 7, 7);
 }
 
 

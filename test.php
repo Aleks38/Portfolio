@@ -114,9 +114,26 @@ items.forEach((el) => {
 
     <a href="" class="">
         <div>
-            <p class="fs-4 rounded-5 d-inline position-absolute top-100 start-50 translate-middle px-2 py-1 border border-2 border-light btnMore">
+            <p class="fs-4 rounded-5 d-inline position-absolute top-100 start-50 translate-middle px-2 py-1 btnMore">
                 En savoir plus
             </p>
         </div>
     </a>
 </div>
+
+    <h1>Contact</h1>
+    <form method="post">
+        <label>Votre email</label>
+        <input type="email" name="email" required><br>
+        <label>Message</label>
+        <textarea name="message" required></textarea><br>
+        <input type="submit">
+    </form>
+    <?php
+    if (isset($_POST['message'])) {
+        $retour = mail('portfolio2022bts@gmail.com', 'Envoi depuis la page Contact', $_POST['message'],'From: webmaster@monsite.fr' . "\r\n" . 'Reply-to: ' . $_POST['email']);
+        if($retour)
+            echo '<p>Votre message a bien été envoyé.</p>';
+    }
+    ?>
+
