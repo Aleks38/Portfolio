@@ -11,90 +11,74 @@
     <body>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
+            <div class="row ">
+                
+                <div class="col-8 align-self-center">
+                <div id="recipeCarousel" class="carousel slide row" data-bs-ride="carousel">
 
+                    <div class="col-1">
 
-        <div class="container text-center my-3">
+                        <a class="carousel-control-prev bg-transparent" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
+                        </a>
 
-            <div class="row mx-auto my-auto justify-content-center">
+                    </div>
 
-                <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner col" role="listbox">
 
-                    <div class="carousel-inner" role="listbox">
-
-                        <div class="carousel-item active">
-                            <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="row">
                         
+                            <div class="col">
 
-                        <div class="carousel-item">
-                            <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <div class="carousel-item active row">
+                                    <div class="card col align-self-center p-0 mx-5" style="width: 18rem;">
+                                        <img src="images/Projet_Gestion-Immobiliere_miniature.jpg" class="card-img-top" alt="...">
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
+                                
 
-                        <div class="carousel-item">
-                            <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <div class="carousel-item row">
+                                    <div class="card col align-self-center p-0 mx-5" style="width: 18rem;">
+                                        <img src="images/Projet_Laravel_miniature.jpg" class="card-img-top" alt="...">
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
 
-                        <div class="carousel-item">
-                            <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <div class="carousel-item row">
+                                    <div class="card col align-self-center p-0 mx-5" style="width: 18rem;">
+                                        <img src="images/Projet_Overwatch_miniature.jpg" class="card-img-top" alt="...">
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
 
-                        <div class="carousel-item">
-                            <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <div class="carousel-item row">
+                                    <div class="card col align-self-center p-0 mx-5" style="width: 18rem;">
+                                        <img src="images/Projet_Pygame_miniature.jpg" class="card-img-top" alt="...">
+                                    </div>
                                 </div>
+
                             </div>
+
                         </div>
 
                     </div>
 
-                    <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
-                    </a>
-                    <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
-                        <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
-                    </a>
+                    <div class="col-1">
+
+                        <a class="carousel-control-next bg-transparent" href="#recipeCarousel" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
+                        </a>
+
+                    </div>
+                </div>
                 </div>
             </div>
-        </div>
     </body>
 </html>
+
 <script>
     let items = document.querySelectorAll('.carousel .carousel-item')
 
 items.forEach((el) => {
-    const minPerSlide = 4
+    const minPerSlide = 3
     let next = el.nextElementSibling
     for (var i=1; i<minPerSlide; i++) {
         if (!next) {
@@ -107,3 +91,32 @@ items.forEach((el) => {
     }
 })
 </script>
+
+<div class="col-7 mx-auto mt-5 row bg-danger p-4 rounded-5 position-relative mb-5">
+    
+    <img src="images/Blockchain.jpg" class="rounded-5 blockChainImg" alt="BlockChain">
+
+    <div class="col my-auto">
+        <p class="fs-1">
+            Ma veille informatique
+        </p>
+
+        <p class="fs-3">
+            La Blockchain qu'est ce que c'est ?
+        </p>
+
+        <p class="fs-5">
+            C'est une technologie de stockage et de transmission d'informations, prenant la forme d'une base de données 
+            qui a la particularité d'être partagée simultanément avec tous ses utilisateurs et qui ne dépend d'aucun 
+            organe central et a pour avantage d'êtrerapide et sécurisée.
+        </p>
+    </div>
+
+    <a href="" class="">
+        <div>
+            <p class="fs-4 rounded-5 d-inline position-absolute top-100 start-50 translate-middle px-2 py-1 border border-2 border-light btnMore">
+                En savoir plus
+            </p>
+        </div>
+    </a>
+</div>

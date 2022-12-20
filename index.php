@@ -214,20 +214,22 @@
             <h2 class="mb-5">Mes compétences :</h2>
             <div class="row">
                 <div class="col-4">
-                    <div class="text-center">
-                        <img class="pp-desc img-fluid" src="images/photo_de_profile.png">
-                    </div>
-                    <div>
-                        <p class="text-center">
-                            Je suis <strong>Da Silva Alexy</strong>, actuellement étudiant en 2ème année de <strong>BTS SIO</strong> option <strong>SLAM</strong> (Solutions Logiciels et Applications Métiers)
-                        </p>
+                    <div class="row h-100 justify-content-center align-items-center">
+                        <div class="text-center">
+                            <img class="pp-desc img-fluid" src="images/photo_de_profile2.png">
+                        </div>
+                        <div>
+                            <p class="text-center">
+                                Je suis <strong>Da Silva Alexy</strong>, actuellement étudiant en 2ème année de <strong>BTS SIO</strong> option <strong>SLAM</strong> (Solutions Logiciels et Applications Métiers)
+                            </p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-8 mx-auto px-5 py-5 rounded-5 textMonProjet">
                     <!-- Progress bar PHP -->
                     <div>
-                        <div class="row">
+                        <div class="row my-2">
                             <div class="col-lg-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="25" viewBox="0 0 256 134" preserveAspectRatio="xMinYMin meet">
                                     <g fill-rule="evenodd">
@@ -342,7 +344,7 @@
                     <!-- Progress bar Python -->
                     <div>
 
-                        <div class="row mt-4">
+                        <div class="row my-2">
                             <div class="col-lg-1">
                             <svg width="40px" height="40px" viewBox="0 0 256 255" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
                                 <defs>
