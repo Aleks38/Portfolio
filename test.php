@@ -97,15 +97,15 @@ items.forEach((el) => {
     <img src="images/Blockchain.jpg" class="rounded-5 blockChainImg" alt="BlockChain">
 
     <div class="col my-auto">
-        <p class="fs-1">
-            Ma veille informatique
+        <p class="fs-1 text-white">
+            <a href="" class="text-white">Ma veille informatique</a>
         </p>
 
-        <p class="fs-3">
-            La Blockchain qu'est ce que c'est ?
+        <p class="fs-3 text-white">
+            La <a href="" class="text-white">Blockchain</a> qu'est ce que c'est ?
         </p>
 
-        <p class="fs-5">
+        <p class="fs-5 text-white">
             C'est une technologie de stockage et de transmission d'informations, prenant la forme d'une base de données 
             qui a la particularité d'être partagée simultanément avec tous ses utilisateurs et qui ne dépend d'aucun 
             organe central et a pour avantage d'êtrerapide et sécurisée.
@@ -114,21 +114,44 @@ items.forEach((el) => {
 
     <a href="" class="">
         <div>
-            <p class="fs-4 rounded-5 d-inline position-absolute top-100 start-50 translate-middle px-2 py-1 btnMore">
+            <p class="fs-5 rounded-5 d-inline position-absolute top-100 start-50 translate-middle px-3 py-1 btnMore">
                 En savoir plus
             </p>
         </div>
     </a>
 </div>
 
-    <h1>Contact</h1>
-    <form method="post">
-        <label>Votre email</label>
-        <input type="email" name="email" required><br>
-        <label>Message</label>
-        <textarea name="message" required></textarea><br>
-        <input type="submit">
-    </form>
+<div class="row">
+    <div class="col-md-3 px-5">
+        <p class="fs-2 fw-bold text-purple">
+            Contact :
+        </p>
+    </div>
+    <div class="col-md-9 px-5">
+        <form method="post" class="row">
+            <div class="col-md-6">
+                <input type="text" class="form-control col-6 my-2 rounded-5" name="prenom" placeholder="Prénom" required>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control col-6 my-2 rounded-5" name="prenom" placeholder="Nom" required>
+            </div>
+            <div class="col-md-12">
+                <input type="email" class="form-control my-2 rounded-5" name="email" placeholder="Adresse mail" required>
+            </div>
+            <div class="col-md-12">
+                <textarea class="form-control my-2 rounded-4" name="message" rows="5" placeholder="Texte" required></textarea>
+            </div>
+            <div class="my-2">
+                <button type="submit" class="btn btn-purple rounded-5">
+                    <p class="d-inline fw-bold">
+                        Envoyer
+                    </p>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
     <?php
     if (isset($_POST['message'])) {
         $retour = mail('portfolio2022bts@gmail.com', 'Envoi depuis la page Contact', $_POST['message'],'From: webmaster@monsite.fr' . "\r\n" . 'Reply-to: ' . $_POST['email']);
@@ -137,3 +160,12 @@ items.forEach((el) => {
     }
     ?>
 
+<p class="lh-sm text-center text-white">
+    Le <span class="badge rounded-pill text-bg-purple">BTS SIO</span> (Brevet de Technicien Supérieur en Services Informatiques aux Organisations) est un diplôme de niveau bac+2 qui forme les étudiants aux métiers de l'informatique 
+    et du développement d'applications. Il est proposé dans les lycées et les centres de formation en France. Le BTS SIO est divisé en deux spécialisations: 
+    <span class="badge rounded-pill text-bg-purple">SISR</span> (Solutions d'Infrastructure, de Systèmes et de Réseaux) et <span class="badge rounded-pill text-bg-purple">SLAM</span> (Solutions Logicielles et Applications Métiers). <br>
+    
+    Le BTS SIO est accessible après <span class="badge rounded-pill text-bg-purple"> un bac général </span> ou <span class="badge rounded-pill text-bg-purple"> technologique </span> ou <span class="badge rounded-pill text-bg-purple"> un bac professionnel </span>. Les étudiants suivent des cours théoriques et pratiques et réalisent des stages en entreprise. 
+    Le BTS SIO permet aux étudiants de se spécialiser dans les métiers de l'informatique et de développer des compétences en matière de <span class="badge rounded-pill text-bg-purple"> gestion de projets </span> informatiques, de <span class="badge rounded-pill text-bg-purple"> développement 
+    d'applications métier </span> et de <span class="badge rounded-pill text-bg-purple"> conseil en systèmes d'information </span>. En résumé, le BTS SIO est une formation professionnelle qui <span class="badge rounded-pill text-bg-purple"> prépare </span> aux métiers de l'informatique et du développement d'applications.
+</p>

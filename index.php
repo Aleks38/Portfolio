@@ -211,7 +211,7 @@
 
         <!-- Mes compétences -->
         <div class="container my-14" id="mesCompetences">
-            <h2 class="mb-5">Mes compétences :</h2>
+            <!-- <h2 class="mb-5">Mes compétences :</h2> -->
             <div class="row">
                 <div class="col-4">
                     <div class="row h-100 justify-content-center align-items-center">
@@ -226,7 +226,12 @@
                     </div>
                 </div>
 
-                <div class="col-8 mx-auto px-5 py-5 rounded-5 textMonProjet">
+                <div class="col-8 mx-auto px-5 py-5 rounded-5 textMonProjet position-relative">
+                    <div>
+                        <p class="fs-5 rounded-5 d-inline position-absolute top-0 start-50 translate-middle textMonProjet px-2">
+                            Mes compétences :
+                        </p>
+                    </div>
                     <!-- Progress bar PHP -->
                     <div>
                         <div class="row my-2">

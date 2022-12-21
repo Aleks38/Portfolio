@@ -191,11 +191,40 @@ transition: all 0.4s;
   border: 2px solid rgb(240, 7, 7);
 }
 
+.text-bg-purple{
+  color: white;
+  background-color: #bb86fc;
+}
 
+.text-purple{
+  color: #bb86fc;
+}
 
+.text-white{
+  color: white;
+}
 
+.form-control:focus{
+  color: #fff;
+  background-color: #fff;
+  border-color: #bb86fc;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem #bb86fc46;
+}
 
+.btn-purple{
+  color: white;
+  background-color: #bb86fc;
+}
 
+.btn-purple:hover{
+  color: #bb86fc;
+  background-color: white;
+}
+
+a.text-white:hover{
+  color: #bb86fc !important;
+}
 
 
 
