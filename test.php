@@ -92,7 +92,7 @@ items.forEach((el) => {
 })
 </script>
 
-<div class="col-7 mx-auto mt-5 row bg-danger p-4 rounded-5 position-relative mb-5">
+<div class="col-7 mx-auto mt-5 row bg-veille p-4 rounded-5 position-relative mb-5">
     
     <img src="images/Blockchain.jpg" class="rounded-5 blockChainImg" alt="BlockChain">
 
