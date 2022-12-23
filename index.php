@@ -6,7 +6,7 @@
         <title>Portfolio</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="images/Logo_Alexy_bleu_transparent.png" sizes="192x192">
+        <link rel="icon" href="images/Logo_Alexy_violet_transparent.png" sizes="192x192">
     </head>
     <body>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
@@ -71,7 +71,7 @@
                 <ul class="nav flex-column mb-0">
                     <!-- Icone accueil -->
                     <li class="nav-item my-3 ">
-                        <a href="#accueuil">
+                        <a href="#accueuil" class="nav-link">
                             <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
                                 <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
@@ -111,17 +111,25 @@
                             </svg>
                         </a>
                     </li>
-                    <!-- Icone pour mon projet -->
+                    <!-- Icone pour ma veille -->
                     <li class="nav-item my-3">
-                        <a href="#">  
+                        <a href="#veille">  
                             <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 16">
                                 <path d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z"/>
                             </svg>
                         </a>
                     </li>
+                    <!-- Icone pour mes projets -->
+                    <li class="nav-item my-3">
+                        <a href="#">  
+                            <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 16">
+                                <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                            </svg>
+                        </a>
+                    </li>
                     <!-- Icone contact -->
                     <li class="nav-item my-3">
-                        <a href="#">
+                        <a href="#contact">
                             <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 16">
                                 <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
                             </svg>
@@ -129,13 +137,16 @@
                     </li>
                 </ul>
             </div>
+            <p>
+                a
+            </p>
         </header>
 
         <div class="header-full" id="accueuil" > 
             <div class="center-div mx-auto pp">
                 <img class="pp img-fluid box" src="images/photo_de_profile.png">
-                <p class="text-center fs-1 fw-bold mb-0">Da Silva Alexy</p>
-                <p class="text-center fs-5">Bienvenue sur mon Portfolio</p>
+                <p class="text-center fs-1 fw-bold mb-0 text-white">Da Silva Alexy</p>
+                <p class="text-center fs-5 text-white">Bienvenue sur mon Portfolio</p>
                 <div class="text-center my-0">
                     <!-- GitHub -->
                     <a href="https://github.com/Aleks38" class="text-decoration-none">
@@ -168,19 +179,19 @@
         </div>
 
         <div class="container my-5" id="monProjet">
-            <h2 class="mb-5">Mon projet d'avenir :</h2>
+            <p class="fs-4 mb-5 text-white">Mon projet d'avenir :</p>
             <div class="row col-10 mx-auto">
                 <div class="col mb-0 rounded-4 mx-2 textMonProjet">
                     <p class="fs-2 mb-0 fw-bold text-center">PASSE / PRESENT</p>    
                     <div class="mb-0 row">
                         <div class=" mb-2 mt-0 fw-bold">
-                            <p class="text-start">2021 - Ajourd'hui</p>
+                            <p class="text-start text-purple">2021 - Ajourd'hui</p>
                         </div>
                         <div class="offset-md-1 my-2 col-md-11">
-                            <p class="text-start">BTS SIO option SLAM** à l’institut supérieur Saint-Denis 07100 Annonay </p>
+                            <p class="text-start">BTS SIO option SLAM* à l’institut supérieur Saint-Denis 07100 Annonay </p>
                         </div>
                         <div class="my-2 fw-bold">
-                            <p class="text-start">2019 - 2021</p>
+                            <p class="text-start text-purple">2019 - 2021</p>
                         </div>
                         <div class="offset-md-1 my-2 col-md-11">
                             <p class="text-start">Bac Général option Mathématques, Physique Chimie et Numérique et Science Informatique</p>
@@ -192,26 +203,25 @@
                     <p class="fs-2 mb-0 fw-bold text-center">Futur</p>
                     <div class="mb-0 row">
                         <div class="mb-2 mt-0 fw-bold ">
-                            <p class="text-start">2023 - 2025</p>
+                            <p class="text-start text-purple">2023 - 2025</p>
                         </div>
                         <div class="offset-md-1 my-2 col-md-11 ">
                             <p class="text-start">Master Développement logiciel</p>
                         </div>
                         <div class="my-2 fw-bold ">
-                            <p class="text-start">2022 - 2023</p>
+                            <p class="text-start text-purple">2022 - 2023</p>
                         </div>
                         <div class="offset-md-1 my-2 col-md-11 ">
-                            <p class="text-start">Licence Pro dans le développement informatique</p>
+                            <p class="text-start">Licence professionnelle Métiers de l'informatique : applications web</p>
                         </div>  
                     </div>
                 </div>
-                <p class="text-start fs-6">**Solutions Logiciels et Applications Métiers </p>
+                <p class="text-start fs-6 text-white">*Solutions Logiciels et Applications Métiers </p>
             </div>
         </div>
 
         <!-- Mes compétences -->
         <div class="container my-14" id="mesCompetences">
-            <!-- <h2 class="mb-5">Mes compétences :</h2> -->
             <div class="row">
                 <div class="col-4">
                     <div class="row h-100 justify-content-center align-items-center">
@@ -219,7 +229,7 @@
                             <img class="pp-desc img-fluid" src="images/photo_de_profile2.png">
                         </div>
                         <div>
-                            <p class="text-center">
+                            <p class="text-center text-white">
                                 Je suis <strong>Da Silva Alexy</strong>, actuellement étudiant en 2ème année de <strong>BTS SIO</strong> option <strong>SLAM</strong> (Solutions Logiciels et Applications Métiers)
                             </p>
                         </div>
@@ -381,6 +391,94 @@
             </div>
         </div>
         <!-- Fin mes compétences -->
+
+        <div class="col-6 mx-auto">
+            <h1 class="fs-4 mb-5 text-white">Le BTS SIO :</h1>
+            <p class="lh-sm text-white">
+                Le <span class="badge rounded-pill text-bg-purple">BTS SIO</span> (Brevet de Technicien Supérieur en Services Informatiques aux Organisations) est un diplôme de niveau bac+2 qui forme les étudiants aux métiers de l'informatique et du développement d'applications. Il est proposé dans les lycées et les centres de formation en France. 
+                <br><br>
+                Le BTS SIO est divisé en deux spécialisations: <span class="badge rounded-pill text-bg-purple">SISR</span> (Solutions d'Infrastructure, de Systèmes et de Réseaux) et <span class="badge rounded-pill text-bg-purple">SLAM</span> (Solutions Logicielles et Applications Métiers). 
+                <br><br>                
+                Le BTS SIO est accessible après <span class="badge rounded-pill text-bg-purple"> un bac général </span> ou <span class="badge rounded-pill text-bg-purple"> technologique </span> ou <span class="badge rounded-pill text-bg-purple"> un bac professionnel </span>. Les étudiants suivent des cours théoriques et pratiques et réalisent des stages en entreprise. 
+                <br><br>
+                Le BTS SIO permet aux étudiants de se spécialiser dans les métiers de l'informatique et de développer des compétences en matière de <span class="badge rounded-pill text-bg-purple"> gestion de projets </span> informatiques, de <span class="badge rounded-pill text-bg-purple"> développement 
+                d'applications métier </span> et de <span class="badge rounded-pill text-bg-purple"> conseil en systèmes d'information </span>. 
+                <br><br>
+                En résumé, le BTS SIO est une formation professionnelle qui <span class="badge rounded-pill text-bg-purple"> prépare </span> aux métiers de l'informatique et du développement d'applications.
+            </p>
+        </div>
+
+        <div class="col-7 mx-auto mt-5 row bg-veille p-4 rounded-5 position-relative mb-5" id="veille">
+    
+            <img src="images/Blockchain.jpg" class="rounded-5 blockChainImg p-0 my-auto ms-1" alt="BlockChain">
+
+            <div class="col my-auto">
+                <p class="fs-1 text-white">
+                    <a href="" class="text-white">Ma veille informatique</a>
+                </p>
+
+                <p class="fs-3 text-white">
+                    La <a href="" class="text-white">Blockchain</a> qu'est ce que c'est ?
+                </p>
+
+                <p class="fs-5 text-white">
+                    C'est une technologie de stockage et de transmission d'informations, prenant la forme d'une base de données 
+                    qui a la particularité d'être partagée simultanément avec tous ses utilisateurs et qui ne dépend d'aucun 
+                    organe central et a pour avantage d'êtrerapide et sécurisée.
+                </p>
+            </div>
+
+            <a href="" class="">
+                <div>
+                    <p class="fs-5 rounded-5 d-inline position-absolute top-100 start-50 translate-middle px-3 py-1 btnMore">
+                        En savoir plus
+                    </p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="col-8 mx-auto" id="contact">
+            <div class="row">
+                <div class="col-md-3 px-5">
+                    <p class="fs-2 fw-bold text-purple">
+                        Contact :
+                    </p>
+                </div>
+                <div class="col-md-9 px-5">
+                    <form method="post" class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control col-6 my-2 rounded-5" name="prenom" placeholder="Prénom" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control col-6 my-2 rounded-5" name="prenom" placeholder="Nom" required>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="email" class="form-control my-2 rounded-5" name="email" placeholder="Adresse mail" required>
+                        </div>
+                        <div class="col-md-12">
+                            <textarea class="form-control my-2 rounded-4" name="message" rows="5" placeholder="Texte" required></textarea>
+                        </div>
+                        <div class="my-2">
+                            <button type="submit" class="btn btn-purple rounded-5">
+                                <p class="d-inline fw-bold">
+                                    Envoyer
+                                </p>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <?php
+            if (isset($_POST['message'])) {
+                $retour = mail('portfolio2022bts@gmail.com', 'Envoi depuis la page Contact', $_POST['message'],'From: webmaster@monsite.fr' . "\r\n" . 'Reply-to: ' . $_POST['email']);
+                if($retour)
+                    echo '<p>Votre message a bien été envoyé.</p>';
+            }
+            ?>
+        </div>
+
+        
 
     </body>
 </html>

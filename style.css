@@ -19,11 +19,11 @@ body
 }
 
 hr.line {
-  height:1px;
-  width:70%;
-  margin:1px;
+  height: 1px;
+  width: 60%;
+  margin: 1px;
   margin:auto;
-  border: 0.5em solid #0a3d62;
+  border: 0.2em solid #bb86fc;
   border-radius: 20px;
   opacity: 100;
 }
@@ -101,7 +101,7 @@ transition: all 0.4s;
 }
 
 .themeDetail:hover{
-  background-color: white;
+  background-color: #313131;
   outline: 2px solid #bb86fc;
   outline-offset: -2px;
 }
@@ -190,7 +190,7 @@ transition: all 0.4s;
   background-color: #fff;
   border-color: #bb86fc;
   outline: 0;
-  box-shadow: 0 0 0 .25rem #bb86fc4f;
+  box-shadow: 0 0 0 .25rem #bb86fc65;
 }
 
 .btn-purple{
@@ -200,7 +200,7 @@ transition: all 0.4s;
 
 .btn-purple:hover{
   color: #bb86fc;
-  background-color: white;
+  background-color: #313131;
   outline: 2px solid #bb86fc;
   outline-offset: -2px;
 }
