@@ -44,8 +44,8 @@ hr.vertical{
 }
 
 .pp{
-  width :  20em;
-  height : 20em;
+  width :  17em;
+  height : 17em;
 }
 
 .centerSVG{
@@ -60,9 +60,9 @@ hr.vertical{
   fill: white;
 }
 
-.colorSVGIcon:hover, .iconPresentation:hover{
+/* .colorSVGIcon:hover, .iconPresentation:hover{
   fill: #bb86fc;
-}
+} */
 
 .vertical-nav{
 min-width: 7rem;
@@ -119,9 +119,9 @@ transition: all 0.4s;
   background-color: #1d1d1d
 }
 
-.my-14{
-  margin-top: 14em;
-  margin-bottom: 14em;
+.my-10{
+  margin-top: 10em;
+  margin-bottom: 10em;
 }
 
 .bg-couleur-bar{
@@ -213,6 +213,32 @@ a.text-white:hover{
   background-color: #1d1d1d;
 }
 
+.colorSVGIcon:hover, .iconPresentation:hover{
+  fill: #bb86fc;
+}
+
+.nav-pills .nav-link.active, .nav-pills .nav-link.active .colorSVGIcon{
+  color: black;
+  background-color: rgba(226, 0, 0, 0);
+  fill: #bb86fc;
+}
+
+.nav-link{
+  padding : 0em;
+}
+
+.verticaltext{
+  width: 1px;
+  word-wrap: break-word;
+  white-space: pre-wrap; 
+  font-size: 0.6em;
+  color: #3a3a3a;
+}
+
+
+
+
+
 
 @media (max-width: 767px) {
   .carousel-inner .carousel-item > div {
@@ -247,4 +273,7 @@ a.text-white:hover{
 .carousel-inner .carousel-item-start { 
 transform: translateX(0);
 }
+
+
+
 
