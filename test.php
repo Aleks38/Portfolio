@@ -170,3 +170,36 @@ items.forEach((el) => {
     d'applications métier </span> et de <span class="badge rounded-pill text-bg-purple"> conseil en systèmes d'information </span>. En résumé, le BTS SIO est une formation professionnelle qui <span class="badge rounded-pill text-bg-purple"> prépare </span> aux métiers de l'informatique et du développement d'applications.
 </p>
 
+<style>
+    #scrollUp
+    {
+    position: fixed;
+    bottom : 2em;
+    right: -100px;
+    }
+</style>
+ 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+ 
+<script>
+    jQuery(function(){
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 200 ) { 
+                    $('#scrollUp').css('right','2em');
+                } else { 
+                    $('#scrollUp').removeAttr( 'style' );
+                }
+            });
+        });
+    });
+</script>
+
+
+<div id="scrollUp">
+                <a href="#top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor" class="colorSVGIcon" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+                    </svg> 
+                </a>
+            </div>

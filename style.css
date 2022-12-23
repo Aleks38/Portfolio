@@ -119,9 +119,8 @@ transition: all 0.4s;
   background-color: #1d1d1d
 }
 
-.my-10{
-  margin-top: 10em;
-  margin-bottom: 10em;
+.mb-15{
+  margin-bottom: 15em;
 }
 
 .bg-couleur-bar{
@@ -235,7 +234,12 @@ a.text-white:hover{
   color: #3a3a3a;
 }
 
-
+#scrollUp
+{
+  position: fixed;
+  bottom : 2em;
+  right: -100px;
+}
 
 
 

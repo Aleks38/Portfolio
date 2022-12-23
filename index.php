@@ -10,6 +10,7 @@
     </head>
     <body>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 
         <nav id="navbar-example2 shadow-lg" class="navbar">
                 <div class="vertical-nav mt-0 test2" id="sidebar">
@@ -212,10 +213,12 @@
             </div>
             <!-- Fin accueuil -->
 
-            <hr class="line lighThemeBack" id="cv">
+            <div class="mb-15">
+                <hr class="line lighThemeBack" id="cv">
+            </div>
 
             <!-- Voir le CV -->
-            <div class="mx-auto my-10">
+            <div class="mx-auto mb-15">
                 <a href="https://1drv.ms/b/s!AoKxhS8d_LSZgbFNVYYgdIJuIOamkg?e=VwYpBF" target="_blank">
                 <button type="button" class="btn btn-lg rounded-5 themeDetail centered textBtn"  >
                     <p class="my-0 mx-4 text-uppercase fw-bold fs-6">Voir CV</p>
@@ -225,7 +228,7 @@
             <!-- Fin voir le CV -->
 
             <!-- Presentation projet d'avenir -->
-            <div class="container my-10" id="monProjet">
+            <div class="container mb-15" id="monProjet">
                 <p class="fs-4 mb-5 text-white">Mon projet d'avenir :</p>
                 <div class="row col-10 mx-auto">
                     <!-- Projet passe / present -->
@@ -274,7 +277,7 @@
             <!-- Fin presentation projet d'avenir -->
 
             <!-- Mes compétences -->
-            <div class="container my-10" id="mesCompetences">
+            <div class="container mb-15" id="mesCompetences">
                 <div class="row">
                     <!-- Ma presentation -->
                     <div class="col-4">
@@ -449,7 +452,7 @@
             <!-- Fin mes compétences -->
 
             <!-- Presentation BTS SIO -->
-            <div class="col-6 mx-auto my-10" id="BTS">
+            <div class="col-6 mx-auto mb-15" id="BTS">
                 <h1 class="fs-4 mb-5 text-white">Le BTS SIO :</h1>
                 <p class="lh-sm text-white">
                     Le <span class="badge rounded-pill text-bg-purple">BTS SIO</span> (Brevet de Technicien Supérieur en Services Informatiques aux Organisations) est un diplôme de niveau bac+2 qui forme les étudiants aux métiers de l'informatique et du développement d'applications. Il est proposé dans les lycées et les centres de formation en France. 
@@ -467,7 +470,7 @@
             <!-- Fin presentation BTS SIO -->
 
             <!-- Presentation veille informatique -->
-            <div class="col-7 mx-auto my-10 row bg-veille p-4 rounded-5 position-relative mb-5" id="veille">
+            <div class="col-7 mx-auto mb-15 row bg-veille p-4 rounded-5 position-relative" id="veille">
                 <img src="images/Blockchain.jpg" class="rounded-5 blockChainImg p-0 my-auto ms-1" alt="BlockChain">
 
                 <div class="col my-auto">
@@ -497,7 +500,7 @@
             <!-- Fin presentation veille informatique -->
             
             <!-- Formulaire de contact -->
-            <div class="col-8 mx-auto my-10" id="contact">
+            <div class="col-8 mx-auto mb-15" id="contact">
                 <div class="row">
                     <div class="col-md-3 px-5">
                         <p class="fs-2 fw-bold text-purple">
@@ -539,8 +542,29 @@
             </div>
             <!-- Fin formulaire de contact -->
 
+            <!-- Boutton retour haut de page -->
+            <div id="scrollUp">
+                <a href="#top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor" class="colorSVGIcon" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+                    </svg> 
+                </a>
+            </div>
+
+            <script>
+                jQuery(function(){
+                    $(function () {
+                        $(window).scroll(function () {
+                            if ($(this).scrollTop() > 200 ) { 
+                                $('#scrollUp').css('right','2em');
+                            } else { 
+                                $('#scrollUp').removeAttr( 'style' );
+                            }
+                        });
+                    });
+                });
+            </script>
+            <!-- Fin boutton retour haut de page -->
         </main>
     </body>
 </html>
-
-
