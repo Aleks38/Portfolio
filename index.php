@@ -453,8 +453,8 @@
 
             <!-- Presentation BTS SIO -->
             <div class="col-6 mx-auto mb-15" id="BTS">
-                <p class="fs-4 mb-5 text-white">Le BTS SIO :</p>
-                <p class="lh-sm text-white">
+                <p class="fs-4 mb-5 text-white">Le BTS SIO : <span class="fs-6">(D'après ChatGPT)</span></p>
+                <p class="fs-6 lh-sm text-white">
                     Le <span class="badge rounded-pill text-bg-purple">BTS SIO</span> (Brevet de Technicien Supérieur en Services Informatiques aux Organisations) est un diplôme de niveau bac+2 qui forme les étudiants aux métiers de l'informatique et du développement d'applications. Il est proposé dans les lycées et les centres de formation en France. 
                     <br><br>
                     Le BTS SIO est divisé en deux spécialisations: <span class="badge rounded-pill text-bg-purple">SISR</span> (Solutions d'Infrastructure, de Systèmes et de Réseaux) et <span class="badge rounded-pill text-bg-purple">SLAM</span> (Solutions Logicielles et Applications Métiers). 
@@ -466,14 +466,16 @@
                     <br><br>
                     En résumé, le BTS SIO est une formation professionnelle qui <span class="badge rounded-pill text-bg-purple"> prépare </span> aux métiers de l'informatique et du développement d'applications.
                 </p>
+
             </div>
+
             <!-- Fin presentation BTS SIO -->
 
             <!-- Projets -->
             <div class="container" id="projet">
                 <p class="fs-4 mb-5 text-white ms-5">Mes projets :</p>
                 <div class="row col-10 mx-auto mb-15 " >
-                    
+
                     <!-- Projet Gestion Immobilière -->
                     <div class="example m-3 p-0 rounded-3" style="width: 300px; height: 450px;" >
                         <img class="imgCards" src="images/Projet_Gestion-Immobiliere_miniature.jpg" />
