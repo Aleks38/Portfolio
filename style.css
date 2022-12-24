@@ -241,43 +241,110 @@ a.text-white:hover{
   right: -100px;
 }
 
-
-
-
-@media (max-width: 767px) {
-  .carousel-inner .carousel-item > div {
-      display: none;
-  }
-  .carousel-inner .carousel-item > div:first-child {
-      display: block;
-  }
+.example {
+  cursor: pointer;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
 }
+.example .fadedbox {
+  background-color: #bb86fc;
 
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  width: 300px;
+  height: 450px;
 }
-
-/* medium and up screens */
-@media (min-width: 768px) {
+.example:hover .fadedbox {
+  opacity: 0.9;
   
-  .carousel-inner .carousel-item-end.active,
-  .carousel-inner .carousel-item-next {
-    transform: translateX(25%);
-  }
-  
-  .carousel-inner .carousel-item-start.active, 
-  .carousel-inner .carousel-item-prev {
-    transform: translateX(-25%);
-  }
 }
 
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start { 
-transform: translateX(0);
+.example .text {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+}
+.example .title {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  opacity: 0;
+  transition-delay: 0.2s;
+  transition-duration: 0.3s;
+}
+.example:hover .title,
+.example:focus .title {
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
 }
 
+.btnMorePy {
+  color: #0277bd;
+  background-color: white;
+  border: 2px solid white;
+}
 
+.btnMorePy:hover {
+  color: #0277bd;
+  background-color: white;
+  outline: 2px solid #ffc107;
+  outline-offset: -2px;
+}
 
+.imgCards{
+  max-width : 100%;
+  height : auto;
+}
 
+.btnMoreLa{
+  color: #ff2d20;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.btnMoreLa:hover{
+  color: #ff2d20;
+  background-color: white;
+  outline: 2px solid #6c6b71;
+  outline-offset: -2px;
+}
+
+.btnMorePHP{
+  color: #232531;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.btnMorePHP:hover{
+  color: #232531;
+  background-color: white;
+  outline: 2px solid #8993be;
+  outline-offset: -2px;  
+}
+
+.btnMoreCs{
+  color: #390091;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.btnMoreCs:hover {
+  color: #390091;
+  background-color: white;
+  outline: 2px solid #280068;
+  outline-offset: -2px;
+}
