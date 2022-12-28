@@ -614,11 +614,11 @@
 
                 <div class="col my-auto">
                     <p class="fs-1 text-white">
-                        <a href="" class="text-white">Ma veille informatique</a>
+                        <a href="veille_techno.php" class="text-white">Ma veille informatique</a>
                     </p>
 
                     <p class="fs-3 text-white">
-                        La <a href="" class="text-white">Blockchain</a> qu'est ce que c'est ?
+                        La <a href="veille_techno.php" class="text-white">Blockchain</a> qu'est ce que c'est ?
                     </p>
 
                     <p class="fs-5 text-white">
@@ -628,7 +628,7 @@
                     </p>
                 </div>
 
-                <a href="" class="">
+                <a href="veille_techno.php" class="">
                     <div>
                         <p class="fs-5 rounded-5 d-inline position-absolute top-100 start-50 translate-middle px-3 py-1 btnMore">
                             En savoir plus

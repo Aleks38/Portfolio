@@ -267,7 +267,6 @@ a.text-white:hover{
 }
 .example:hover .fadedbox {
   opacity: 0.9;
-  
 }
 
 .example .text {
@@ -347,4 +346,39 @@ a.text-white:hover{
   background-color: white;
   outline: 2px solid #280068;
   outline-offset: -2px;
+}
+
+.dropdown .dropdown-toggle::after {
+  opacity: 0;
+}
+
+.dropdown .dropdown-menu[data-bs-popper]{
+  background-color: #1d1d1d;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.blockchainTitle{
+  font-size: 5em;
+  background-image: url(images/Blockchain2.jpg);
+  background-size: cover;
+
+}
+
+.ms-10{
+  margin-left: 7em;
+}
+
+.graphesImg {
+  width : 30em;
+}
+
+.dropdown .dropdown-menu[data-bs-popper]{
+  left: 100% !important;
+}
+
+.dropdown-menu {
+  transform: translate3d(0.5em, -10.6667px, 0px) !important;
 }
