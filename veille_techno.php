@@ -535,7 +535,7 @@
                             </p>
                         </div> 
                         <p class="fs-4 fw-bold">
-                            Medias d'actualités :
+                            Medias :
                         </p>
                         <div class="row ms-5 my-3">
                             <a href="https://www.usine-digitale.fr/" target="_blank" class="col-auto">
