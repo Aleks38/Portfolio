@@ -609,7 +609,7 @@
             <!-- Fin projets -->
 
             <!-- Presentation veille informatique -->
-            <div class="col-8 mx-auto mb-15 row bg-veille p-4 rounded-5 position-relative" id="veille">
+            <div class="col-7 mx-auto mb-15 row bg-veille p-4 rounded-5 position-relative" id="veille">
                 <img src="images/Blockchain.jpg" class="rounded-5 blockChainImg p-0 my-auto ms-1" alt="BlockChain">
 
                 <div class="col my-auto">
@@ -639,7 +639,7 @@
             <!-- Fin presentation veille informatique -->
             
             <!-- Formulaire de contact -->
-            <div class="col-10 mx-auto mb-15" id="contact">
+            <div class="col-8 mx-auto mb-15" id="contact">
                 <div class="row">
                     <div class="col-md-3 px-5">
                         <p class="fs-2 fw-bold text-purple">
