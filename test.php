@@ -3,232 +3,708 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Portfolio test</title>
+        <title>Portfolio</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="images/Logo_Alexy_violet_transparent.png" sizes="192x192">
     </head>
-    <body>
+    <body class="row">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 
-        <div class="col-8 mx-auto">
-            <p class="fs-3 text-purple fw-bold">
-                - Informations importantes à retenir :
-            </p>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                
-                <div class="col p-3">
-                    <div class="card border-purple">
-                        <img src="images/illuastration_veille/metaverse.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Le Metaverse</h5>
-                            <p class="card-text">Le métaverse est donc un univers virtuel partagé lié à de nombreuses technologies : NFT, blockchain, crypto-monnaie. Cet univers permet aux internautes d'être totalement libres et d'évoluer selon leurs envies..</p>
-                            <div class="row">
-                                <p class="card-text col-7 m-0">
-                                    <small class="text-muted">1992</small>
-                                </p>
-                                <a href="https://www.realite-virtuelle.com/le-metaverse-tout-savoir/" target="_blank" class="col-5 text-decoration-none my-auto ">
-                                    <div>
-                                        <p class="rounded-5 d-inline px-3 py-1 btn-purple-veille ">
-                                            Lire plus
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col p-3">
-                    <div class="card border-purple">
-                    <img src="images/illuastration_veille/cryptomonnaie.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Les cryptomonnaies</h5>
-                        <p class="card-text">Une cryptomonnaie est un système de paiement numérique qui ne s'appuie pas sur les banques pour vérifier les transactions. Il s'agit d'un système de partage P2P (peer-to-peer) permettant à tout le monde d'envoyer et de recevoir des paiements n'importe où.</p>
-                        <div class="row">
-                            <p class="card-text col-7 m-0">
-                                <small class="text-muted">2008</small>
-                            </p>
-                            <a href="https://www.kaspersky.fr/resource-center/definitions/what-is-cryptocurrency" target="_blank" class="col-5 text-decoration-none my-auto ">
-                                <div>
-                                    <p class="rounded-5 d-inline px-3 py-1 btn-purple-veille ">
-                                        Lire plus
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="col p-3">
-                    <div class="card border-purple">
-                    <img src="images/illuastration_veille/NFT.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Les NFTs</h5>
-                        <p class="card-text">Un NFT, pour Non-Fungible token en anglais et jeton non fongible ou non échangeable en français, permet de désigner une propriété numérique comme étant l’authentique, la seule et unique.</p>
-                        <div class="row">
-                            <p class="card-text col-7 m-0">
-                                <small class="text-muted">2018</small>
-                            </p>
-                            <a href="https://www.numerama.com/tech/693780-que-sont-les-nft-et-pourquoi-acheter-un-tweet-25-millions-de-dollars.html" target="_blank" class="col-5 text-decoration-none my-auto ">
-                                <div>
-                                    <p class="rounded-5 d-inline px-3 py-1 btn-purple-veille ">
-                                        Lire plus
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="col p-3">
-                    <div class="card border-purple">
-                    <img src="images/illuastration_veille/blockchain-carrefour.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">La blochain de Carrefour</h5>
-                        <p class="card-text">En 2019 Carrefour décide de créer sa propre blockcahin pour pouvoir suivre ces produits et ainsi montrer aux consommateurs leurs origines.</p>
-                        <div class="row">
-                            <p class="card-text col-7 m-0">
-                                <small class="text-muted">08 mars 2018</small>
-                            </p>
-                            <a href="https://www.carrefour.com/fr/news/2022/carrefourbioblockchain" target="_blank" class="col-5 text-decoration-none my-auto ">
-                                <div>
-                                    <p class="rounded-5 d-inline px-3 py-1 btn-purple-veille ">
-                                        Lire plus
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="col p-3">
-                    <div class="card border-purple">
-                        <img src="images/illuastration_veille/meta.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Changement de nom pour Facebook</h5>
-                            <p class="card-text">La maison-mère du réseau social Facebook a annoncé son changement de nom, le 28 octobre 2021, au cours d'un événement intitulé Facebook Connect, dédié au futur projet géant de Mark Zuckerberg, le metaverse.</p>
-                            <div class="row">
-                                <p class="card-text col-7 m-0">
-                                    <small class="text-muted">28 octobre 2021</small>
-                                </p>
-                                <a href="https://www.numerama.com/tech/751143-facebook-nouveau-nom-logo.html" target="_blank" class="col-5 text-decoration-none my-auto ">
-                                    <div>
-                                        <p class="rounded-5 d-inline px-3 py-1 btn-purple-veille ">
-                                            Lire plus
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col p-3">
-                    <div class="card border-purple">
-                        <img src="images/illuastration_veille/the_merge.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">The merge</h5>
-                            <p class="card-text">The Merge est la fusion entre la blockchain Ethereum principale, le “mainnet” que les utilisateurs classiques connaissaient jusqu'ici, reposant sur le Proof-of-work et la “Beacon Chain” qui repose sur le Proof-of-stake.</p>                        <div class="row">
-                                <p class="card-text col-7 m-0">
-                                    <small class="text-muted">15 septembre 2022</small>
-                                </p>
-                                <a href="https://www.usine-digitale.fr/article/the-merge-comprendre-la-mise-a-jour-de-la-blockchain-ethereum-en-six-questions.N2043497" target="_blank" class="col-5 text-decoration-none my-auto ">
-                                    <div>
-                                        <p class="rounded-5 d-inline px-3 py-1 btn-purple-veille ">
-                                            Lire plus
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col p-3">
-                    <div class="card border-purple">
-                        <img src="images/illuastration_veille/binance-hacked.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">La plateforme Binance hacké</h5>
-                            <p class="card-text">Binance, la plus grande plateforme d’échange de crypto-monnaies au monde, a été hackée dans la nuit du 6 au 7 octobre 2022. Le pirate aurait réussi à dérober l’équivalent de 100 millions de dollars en BNB, la crypto-monnaie de Binance. </p>
-                            <div class="row">
-                                <p class="card-text col-7 m-0">
-                                    <small class="text-muted">6 Octobre 2022</small>
-                                </p>
-                                <a href="https://www.usine-digitale.fr/article/binance-hacke-la-plateforme-evite-de-peu-un-casse-a-570-millions-de-dollars.N2052962" target="_blank" class="col-5 text-decoration-none my-auto ">
-                                    <div>
-                                        <p class="rounded-5 d-inline px-3 py-1 btn-purple-veille ">
-                                            Lire plus
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col p-3">
-                    <div class="card border-purple">
-                        <img src="images/illuastration_veille/chute_ftx.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">La chute de FTX</h5>
-                            <p class="card-text">FTX, reposait en grande partie sur le FTT, la cryptomonnaie inventée par sa société-soeur, et non sur un actif indépendant comme il est de coutume. Suffisant pour jeter le trouble sur la valeur réelle des actifs du fonds d'investissement et sur sa solvabilité si le cours du FTT venait à s'écrouler.</p>
-                            <div class="row">
-                                <p class="card-text col-7 m-0">
-                                    <small class="text-muted">2 novembre 2022</small>
-                                </p>
-                                <a href="https://fr.beincrypto.com/apprendre/affaire-ftx-plongee-coeur-pire-scandale-crypto-2022/" target="_blank" class="col-5 text-decoration-none my-auto ">
-                                    <div>
-                                        <p class="rounded-5 d-inline px-3 py-1 btn-purple-veille ">
-                                            Lire plus
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col p-3">
-                    <div class="card border-purple">
-                        <img src="images/illuastration_veille/bitcoin_bresil.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">L'adoption du Bitcoin par l'Etat brésilien</h5>
-                            <p class="card-text">Selon une publication du 22 décembre dernier au journal officiel du gouvernement fédéral du Brésil, Jair Bolsonaro a signé le projet de loi 14.478, qui légalise l’utilisation des cryptomonnaies en tant que moyens de paiement.</p>
-                            <div class="row">
-                                <p class="card-text col-7 m-0">
-                                    <small class="text-muted">22 décembre 2022</small>
-                                </p>
-                                <a href="https://journalducoin.com/bitcoin/bitcoin-monnaie-legale-bresil-adoption-cryptomonnaies-terrain/" class="col-5 text-decoration-none my-auto ">
-                                    <div>
-                                        <p class="rounded-5 d-inline px-3 py-1 btn-purple-veille ">
-                                            Lire plus
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col p-3">
-                    <div class="card border-purple">
-                        <img src="images/illuastration_veille/Impot-crypto.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">L'imposition sur les cryptomonnaies</h5>
-                            <p class="card-text">Les règles fiscales sur les plus-values dans la cryptomonnaie évoluent à partir du 1er janvier 2023. La frontière entre vendeur occasionnel et vendeur habituel était trop floue, on parle désormais d'investisseurs particuliers et d'investisseurs professionnels.</p>
-                            <div class="row">
-                                <p class="card-text col-7 m-0">
-                                    <small class="text-muted">1er janvier 2023</small>
-                                </p>
-                                <a href="https://www.phonandroid.com/bitcoin-et-crypto-changement-de-fiscalite-sur-les-plus-values-des-le-1er-janvier-2023.html" target="_blank" class="col-5 text-decoration-none my-auto ">
-                                    <div>
-                                        <p class="rounded-5 d-inline px-3 py-1 btn-purple-veille ">
-                                            Lire plus
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+        <nav id="sidebar" class="vertical-nav mt-0 test2 shadow-lg col-auto me-5">
+            <ul class="nav nav-pills flex-column mb-0">
+                <!-- Logo accueuil -->
+                <li class="nav-item my-5 box mx-4" title="Accueuil">
+                    <a class="nav-link" href="#accueuil">
+                        <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" zoomAndPan="magnify" viewBox="0 0 375 374.999991" preserveAspectRatio="xMidYMid meet" version="1.0">
+                            <defs>
+                                <clipPath id="c9d709cdee">
+                                    <path d="M 20.339844 20.339844 L 354.839844 20.339844 L 354.839844 354.839844 L 20.339844 354.839844 Z M 20.339844 20.339844 " clip-rule="nonzero"/>
+                                </clipPath>
+                            </defs>
+                            <g clip-path="url(#c9d709cdee)">
+                                <path  d="M 352.207031 349.675781 C 352.449219 349.351562 352.683594 349.027344 352.894531 348.683594 C 353.117188 348.332031 353.304688 347.972656 353.484375 347.597656 C 353.664062 
+                                347.222656 353.84375 346.851562 353.988281 346.453125 C 354.136719 346.066406 354.253906 345.667969 354.355469 345.265625 C 354.457031 344.867188 354.5625 344.480469 354.628906 344.078125 C 354.707031 
+                                343.621094 354.738281 343.160156 354.765625 342.691406 C 354.78125 342.433594 354.839844 342.199219 354.839844 341.933594 C 354.839844 341.800781 354.804688 341.683594 354.804688 341.558594 C 354.789062 
+                                341.097656 354.730469 340.636719 354.664062 340.171875 C 354.605469 339.769531 354.5625 339.375 354.464844 338.984375 C 354.378906 338.601562 354.238281 338.230469 354.113281 337.855469 C 353.960938 337.40625 
+                                353.8125 336.960938 353.613281 336.535156 C 353.5625 336.417969 353.542969 336.300781 353.484375 336.179688 L 295.585938 220.386719 C 292.414062 214.039062 284.683594 211.464844 278.320312 214.632812 C 271.96875 
+                                217.8125 269.390625 225.539062 272.570312 231.898438 L 321.15625 329.070312 L 277.257812 329.070312 L 252.613281 278.417969 C 252.496094 278.167969 252.316406 277.960938 252.1875 277.726562 C 251.953125 277.316406 
+                                251.722656 276.914062 251.445312 276.53125 C 251.203125 276.191406 250.9375 275.890625 250.667969 275.585938 C 250.386719 275.269531 250.117188 274.960938 249.808594 274.675781 C 249.5 274.386719 249.179688 274.140625 
+                                248.847656 273.882812 C 248.515625 273.625 248.1875 273.375 247.828125 273.15625 C 247.492188 272.941406 247.136719 272.765625 246.785156 272.589844 C 246.398438 272.390625 246.007812 272.210938 245.597656 272.046875 
+                                C 245.222656 271.910156 244.839844 271.796875 244.460938 271.695312 C 244.050781 271.578125 243.636719 271.46875 243.210938 271.394531 C 242.765625 271.320312 242.316406 271.292969 241.871094 271.261719 C 241.582031 
+                                271.242188 241.320312 271.175781 241.035156 271.175781 L 134.277344 271.175781 C 133.976562 271.175781 133.699219 271.242188 133.40625 271.261719 C 132.964844 271.292969 132.53125 271.320312 132.097656 271.394531 C 
+                                131.667969 271.46875 131.25 271.585938 130.835938 271.703125 C 130.457031 271.804688 130.082031 271.910156 129.714844 272.054688 C 129.304688 272.210938 128.914062 272.398438 128.527344 272.597656 C 128.167969 
+                                272.773438 127.8125 272.957031 127.476562 273.171875 C 127.125 273.390625 126.800781 273.640625 126.472656 273.890625 C 126.132812 274.144531 125.8125 274.402344 125.496094 274.6875 C 125.195312 274.96875 124.921875 
+                                275.277344 124.652344 275.589844 C 124.378906 275.898438 124.109375 276.207031 123.867188 276.546875 C 123.59375 276.917969 123.367188 277.324219 123.132812 277.734375 C 123 277.96875 122.824219 278.175781 122.707031 
+                                278.421875 L 98.0625 329.078125 L 54.023438 329.078125 L 99.050781 239.015625 L 223.035156 239.015625 C 230.136719 239.015625 235.90625 233.257812 235.90625 226.148438 C 235.90625 219.035156 230.144531 213.277344 
+                                223.035156 213.277344 L 111.921875 213.277344 L 187.597656 61.917969 L 237.660156 162.050781 L 187.597656 162.050781 C 180.496094 162.050781 174.726562 167.808594 174.726562 174.917969 C 174.726562 182.019531 180.488281 
+                                187.789062 187.597656 187.789062 L 258.460938 187.789062 C 258.464844 187.789062 258.480469 187.789062 258.488281 187.789062 C 258.5625 187.789062 258.636719 187.765625 258.707031 187.765625 C 259.574219 187.75 260.425781 
+                                187.65625 261.238281 187.472656 C 261.480469 187.421875 261.71875 187.320312 261.960938 187.246094 C 262.632812 187.054688 263.289062 186.835938 263.910156 186.539062 C 264.011719 186.488281 264.125 186.476562 264.226562 
+                                186.421875 C 264.453125 186.304688 264.644531 186.144531 264.863281 186.019531 C 265.269531 185.785156 265.664062 185.550781 266.039062 185.277344 C 266.375 185.035156 266.683594 184.765625 266.992188 184.492188 C 267.300781 
+                                184.222656 267.601562 183.945312 267.878906 183.640625 C 268.171875 183.328125 268.4375 182.996094 268.695312 182.660156 C 268.9375 182.335938 269.171875 182.015625 269.390625 181.667969 C 269.613281 181.316406 269.796875 180.957031 
+                                269.980469 180.582031 C 270.160156 180.207031 270.339844 179.835938 270.484375 179.4375 C 270.632812 179.050781 270.75 178.652344 270.851562 178.25 C 270.953125 177.855469 271.058594 177.464844 271.125 177.0625 C 271.203125 176.605469 
+                                271.234375 176.144531 271.261719 175.683594 C 271.277344 175.425781 271.335938 175.183594 271.335938 174.925781 C 271.335938 174.792969 271.300781 174.675781 271.300781 174.550781 C 271.285156 174.089844 271.226562 173.628906 271.160156 
+                                173.15625 C 271.101562 172.761719 271.058594 172.367188 270.96875 171.976562 C 270.882812 171.59375 270.742188 171.214844 270.617188 170.839844 C 270.460938 170.390625 270.316406 169.953125 270.117188 169.527344 C 270.066406 169.410156 
+                                270.042969 169.292969 269.984375 169.171875 L 199.101562 27.398438 C 199.058594 27.304688 198.984375 27.238281 198.941406 27.140625 C 198.71875 26.714844 198.449219 26.328125 198.175781 25.929688 C 197.964844 25.617188 197.765625 25.292969 
+                                197.53125 25.007812 C 197.269531 24.683594 196.960938 24.398438 196.664062 24.105469 C 196.359375 23.796875 196.0625 23.480469 195.734375 23.207031 C 195.457031 22.980469 195.140625 22.78125 194.832031 22.578125 C 194.429688 22.304688 
+                                194.03125 22.027344 193.605469 21.800781 C 193.519531 21.75 193.445312 21.683594 193.347656 21.636719 C 193.101562 21.515625 192.835938 21.457031 192.578125 21.34375 C 192.144531 21.160156 191.722656 20.984375 191.28125 20.855469 
+                                C 190.875 20.734375 190.480469 20.65625 190.070312 20.574219 C 189.667969 20.492188 189.261719 20.414062 188.851562 20.375 C 188.425781 20.339844 188 20.339844 187.566406 20.339844 C 187.164062 20.339844 186.769531 20.339844 186.363281 20.375 
+                                C 185.925781 20.421875 185.5 20.5 185.074219 20.589844 C 184.683594 20.671875 184.304688 20.734375 183.921875 20.855469 C 183.464844 20.992188 183.035156 21.167969 182.59375 21.351562 C 182.34375 21.457031 182.078125 21.515625 181.835938 21.636719 
+                                C 181.742188 21.683594 181.667969 21.757812 181.582031 21.800781 C 181.15625 22.019531 180.765625 22.292969 180.371094 22.5625 C 180.0625 22.777344 179.738281 22.972656 179.453125 23.207031 C 179.128906 23.472656 178.84375 23.78125 178.542969 24.082031 
+                                C 178.242188 24.382812 177.925781 24.675781 177.65625 25.007812 C 177.429688 25.285156 177.230469 25.609375 177.023438 25.910156 C 176.753906 26.3125 176.472656 26.707031 176.246094 27.132812 C 176.195312 27.222656 176.128906 27.296875 176.085938 27.390625 L 21.699219 336.179688 
+                                C 21.636719 336.300781 21.617188 336.417969 21.566406 336.535156 C 21.367188 336.960938 21.214844 337.40625 21.066406 337.855469 C 20.941406 338.230469 20.808594 338.601562 20.714844 338.984375 C 20.625 339.375 20.574219 339.769531 20.515625 340.171875 
+                                C 20.449219 340.636719 20.390625 341.097656 20.375 341.558594 C 20.375 341.683594 20.339844 341.808594 20.339844 341.933594 C 20.339844 342.191406 20.398438 342.433594 20.414062 342.691406 C 20.441406 343.152344 20.472656 343.613281 20.550781 344.078125 
+                                C 20.617188 344.480469 20.722656 344.875 20.824219 345.265625 C 20.933594 345.667969 21.042969 346.066406 21.191406 346.453125 C 21.335938 346.851562 21.515625 347.222656 21.699219 347.597656 C 21.878906 347.972656 22.070312 348.332031 22.285156 348.683594 
+                                C 22.496094 349.027344 22.730469 349.351562 22.972656 349.675781 C 23.230469 350.011719 23.496094 350.34375 23.789062 350.65625 C 24.066406 350.957031 24.359375 351.230469 24.667969 351.5 C 24.976562 351.78125 25.292969 352.042969 25.628906 352.292969 
+                                C 25.996094 352.566406 26.386719 352.792969 26.78125 353.019531 C 27.007812 353.152344 27.199219 353.3125 27.433594 353.4375 C 27.539062 353.488281 27.65625 353.503906 27.757812 353.554688 C 28.375 353.84375 29.011719 354.0625 29.671875 354.246094 C 29.921875 
+                                354.320312 30.171875 354.421875 30.421875 354.480469 C 31.191406 354.648438 31.992188 354.730469 32.8125 354.757812 C 32.929688 354.757812 33.054688 354.804688 33.171875 354.804688 C 33.195312 354.804688 33.214844 354.796875 33.230469 354.796875 L 106.046875 354.796875 
+                                C 106.058594 354.796875 106.066406 354.804688 106.082031 354.804688 C 106.859375 354.804688 107.628906 354.707031 108.394531 354.570312 C 108.597656 354.53125 108.796875 354.488281 108.996094 354.445312 C 109.617188 354.296875 110.226562 354.113281 110.8125 353.878906 C 110.929688 
+                                353.835938 111.050781 353.804688 111.160156 353.753906 C 111.835938 353.46875 112.472656 353.109375 113.097656 352.703125 C 113.25 352.601562 113.398438 352.492188 113.542969 352.382812 C 114.027344 352.039062 114.484375 351.664062 114.914062 351.246094 C 115.039062 351.128906 115.171875 
+                                351.011719 115.296875 350.886719 C 115.816406 350.351562 116.300781 349.785156 116.726562 349.144531 C 116.765625 349.09375 116.785156 349.042969 116.816406 348.992188 C 117.117188 348.539062 117.394531 348.066406 117.644531 347.5625 L 142.289062 296.90625 L 232.976562 296.90625 L 256.960938 
+                                346.21875 C 258.328125 350.070312 261.453125 353.042969 265.394531 354.207031 C 265.539062 354.253906 265.6875 354.304688 265.832031 354.347656 C 266.222656 354.449219 266.609375 354.53125 267.015625 354.597656 C 267.617188 354.699219 268.226562 354.765625 268.835938 354.78125 C 268.90625 
+                                354.78125 268.964844 354.804688 269.039062 354.804688 L 269.136719 354.804688 C 269.15625 354.804688 269.171875 354.8125 269.195312 354.8125 C 269.207031 354.8125 269.214844 354.804688 269.230469 354.804688 L 341.898438 354.804688 C 341.917969 354.804688 341.941406 354.8125 341.957031 354.8125 
+                                C 342.074219 354.8125 342.199219 354.773438 342.316406 354.765625 C 343.128906 354.746094 343.9375 354.65625 344.707031 354.488281 C 344.964844 354.429688 345.207031 354.328125 345.457031 354.253906 C 346.117188 354.0625 346.761719 353.847656 347.371094 353.5625 C 347.480469 353.511719 
+                                347.589844 353.496094 347.695312 353.445312 C 347.929688 353.328125 348.125 353.160156 348.347656 353.027344 C 348.742188 352.800781 349.132812 352.566406 349.5 352.300781 C 349.835938 352.050781 350.152344 351.789062 350.460938 351.507812 C 350.769531 351.238281 351.0625 350.964844 
+                                351.339844 350.664062 C 351.683594 350.34375 351.941406 350.011719 352.207031 349.675781 Z M 352.207031 349.675781 "/>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <!-- Icone CV -->
+                <li class="nav-item my-3" title="CV">
+                    <a class="nav-link" href="#cv">
+                        <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-file-earmark-person" viewBox="0 0 16 16">
+                            <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                            <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z"/>
+                        </svg>
+                    </a>
+                </li>
+
+                <!-- Icone études --> 
+                <li class="nav-item my-3" title="Eudes">
+                    <a class="nav-link" href="#monProjet">
+                        <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1.5em" height="1.5em" viewBox="0 0 512.004 512.004" xml:space="preserve">
+                            <path d="M496.798,152.612l-230.4-102.4c-3.302-1.468-6.844-2.21-10.394-2.21c-3.541,0-7.091,0.734-10.394,2.21l-230.4,102.4    c-9.242,4.113-15.206,13.278-15.206,23.39s5.956,19.285,15.206,23.39L38.404,209.7v45.457c-14.865,5.299-25.6,19.379-25.6,36.045    
+                            c0,11.87,5.53,22.366,14.02,29.423L1.719,364.119c-3.541,6.127-1.434,13.952,4.685,17.485c2.014,1.161,4.215,1.715,6.391,1.715    c4.429,0,8.721-2.304,11.102-6.4l14.515-25.139v29.022c0,7.074,5.726,12.8,12.8,12.8c7.074,0,12.8-5.726,12.8-12.8V351.78    
+                            l14.515,25.139c2.372,4.113,6.673,6.4,11.102,6.4c2.176,0,4.378-0.546,6.391-1.715c6.127-3.541,8.226-11.366,4.685-17.485    l-25.105-43.494c8.491-7.049,14.02-17.544,14.02-29.423c0-16.666-10.735-30.737-25.6-36.045v-34.074l38.4,17.067v14.652    
+                            c0,8.03,3.772,15.599,10.18,20.437c0.845,0.64,1.852,0.93,2.756,1.451c-0.026,1.246-0.145,2.458-0.145,3.712    c0,102.502,63.036,185.6,140.8,185.6s140.8-83.098,140.8-185.6c0-1.254-0.119-2.466-0.145-3.712    c0.904-0.521,1.911-0.811,2.756-1.451c6.408-4.838,10.18-12.407,10.18-20.437V238.15l87.194-38.75    
+                            c9.25-4.113,15.206-13.278,15.206-23.398S506.048,156.717,496.798,152.612z M51.213,304.002c-7.066,0-12.8-5.734-12.8-12.8    s5.734-12.8,12.8-12.8c7.066,0,12.8,5.734,12.8,12.8S58.278,304.002,51.213,304.002z M256.004,438.402   
+                            c-63.522,0-115.2-71.774-115.2-160c0-0.93,0.094-1.835,0.102-2.765c2.236-0.683,4.412-1.323,6.75-2.048    c22.323-6.98,50.099-15.659,108.348-15.659s86.025,8.687,108.348,15.659c2.338,0.734,4.514,1.365,6.75,2.048    
+                            c0.009,0.93,0.102,1.835,0.102,2.765C371.204,366.628,319.526,438.402,256.004,438.402z M384.004,252.802    c-26.103-7.458-54.929-20.48-128-20.48s-101.897,13.022-128,20.48c0-22.545,0-43.989,0-50.859c0-21.205,57.31-38.4,128-38.4    
+                            s128,17.195,128,38.4C384.004,210.579,384.004,231.298,384.004,252.802z M409.604,210.135v-8.192c0-60.911-127.949-64-153.6-64    c-25.651,0-153.6,3.089-153.6,64v8.201l-76.8-34.133l230.4-102.4l230.4,102.4L409.604,210.135z"/>
+                        </svg>
+                    </a>
+                </li>
+
+                <!-- Icone compétences -->
+                <li class="nav-item my-3" title="Compétences">
+                    <a class="nav-link" href="#mesCompetences">
+                        <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1.7em" height="1.7em" viewBox="0 0 297 297">
+                            <g>
+                                <g>
+                                    <path d="M283.598,93.401c0-25.374-18.374-46.539-42.515-50.886C236.735,18.374,215.571,0,190.197,0
+                                        c-17.099,0-32.279,8.349-41.697,21.179C139.082,8.349,123.902,0,106.803,0C81.429,0,60.265,18.374,55.917,42.514
+                                        C31.776,46.862,13.402,68.027,13.402,93.4c0,8.132,2.946,22.468,10.91,30.811c-6.834,8.766-10.91,19.783-10.91,31.734
+                                        c0,18.066,9.436,34.556,24.33,43.863c-2.295,5.915-3.482,12.231-3.482,18.682c0,17.879,9.402,34.527,24.377,43.889
+                                        C61.843,281.948,78.983,297,99.357,297c15.484,0,37.558-16.716,49.143-26.492C160.085,280.284,182.159,297,197.643,297
+                                        c20.374,0,37.514-15.052,40.73-34.62c14.975-9.362,24.377-26.01,24.377-43.889c0-6.452-1.187-12.767-3.482-18.682
+                                        c14.895-9.307,24.33-25.797,24.33-43.863c0-11.951-4.076-22.968-10.91-31.734C280.651,115.869,283.598,101.532,283.598,93.401z
+                                        M138.492,252.725c-13.887,12.164-31.792,24.26-39.136,24.26c-11.554,0-21.089-9.4-21.255-20.955
+                                        c-0.001-0.045-0.01-0.089-0.011-0.134c0.423-11.191,9.629-20.298,20.914-20.46c5.525-0.079,9.942-4.623,9.863-10.15
+                                        c-0.078-5.478-4.543-9.864-10.003-9.864c-0.049,0-0.098,0-0.147,0.001c-16.184,0.232-30.187,9.934-36.735,23.745
+                                        c-4.871-5.667-7.719-12.984-7.719-20.678c0-6.31,1.85-12.404,5.351-17.623c1.725-2.572,2.163-5.797,1.184-8.735
+                                        c-0.978-2.938-3.261-5.258-6.183-6.283c-12.68-4.448-21.2-16.465-21.2-29.904c0-17.474,14.216-31.69,31.69-31.69
+                                        s31.689,14.216,31.689,31.69c0,5.526,4.481,10.007,10.007,10.007s10.007-4.481,10.007-10.007c0-28.51-23.195-51.704-51.703-51.704
+                                        c-9.31,0-18.056,2.476-25.611,6.801c-2.816-2.395-6.078-11.474-6.078-17.642c0-17.474,14.216-31.69,31.69-31.69
+                                        c5.526,0,10.007-4.481,10.007-10.007c0-17.474,14.215-31.689,31.689-31.689s31.69,14.215,31.69,31.689V252.725z M190.198,165.952
+                                        c5.526,0,10.007-4.481,10.007-10.007c0-17.474,14.215-31.69,31.689-31.69s31.69,14.216,31.69,31.69
+                                        c0,13.439-8.52,25.457-21.2,29.904c-2.922,1.025-5.205,3.345-6.183,6.283c-0.978,2.938-0.54,6.163,1.184,8.735
+                                        c3.501,5.22,5.351,11.313,5.351,17.623c0,7.695-2.848,15.012-7.719,20.679c-6.547-13.811-20.551-23.513-36.735-23.745
+                                        c-0.049-0.001-0.098-0.001-0.147-0.001c-5.46,0-9.925,4.387-10.003,9.864c-0.079,5.526,4.337,10.071,9.863,10.15
+                                        c11.289,0.161,20.496,9.272,20.915,20.466c-0.001,0.043-0.01,0.085-0.011,0.128c-0.165,11.554-9.7,20.955-21.255,20.955
+                                        c-7.344,0-25.25-12.098-39.136-24.26V51.703c0-17.474,14.216-31.689,31.69-31.689s31.689,14.215,31.689,31.689
+                                        c0,5.526,4.481,10.007,10.007,10.007c17.474,0,31.69,14.216,31.69,31.69c-0.001,6.168-3.263,15.247-6.078,17.642
+                                        c-7.554-4.325-16.301-6.801-25.612-6.801c-28.509,0-51.703,23.195-51.703,51.704C180.191,161.471,184.672,165.952,190.198,165.952
+                                        z"/>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+
+                <!-- Icone BTS SIO -->
+                <li class="nav-item my-3" title="BTS SIO">
+                    <a class="nav-link" href="#BTS">
+                        <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 16">
+                            <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"/>
+                        </svg>
+                    </a>
+                </li>
+
+                <!-- Icone projets -->
+                <li class="nav-item my-3" title="Projets">
+                    <a class="nav-link" href="#projet">  
+                        <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 16">
+                            <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                        </svg>
+                    </a>
+                </li>
+
+                <!-- Icone veille technologique-->
+                <li class="nav-item my-3" title="Veille technologique">
+                    <a class="nav-link" href="#veille">  
+                        <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 16">
+                            <path d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z"/>
+                        </svg>
+                    </a>
+                </li>
+
+                <!-- Icone contact -->
+                <li class="nav-item my-3" title="Contact">
+                    <a class="nav-link" href="#contact">
+                        <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+
+            <div>
+                <p class="centerSVG position-absolute bottom-0 end-0 verticaltext">
+                    ALEXY DA SILVA
+                </p>
+            </div>
+
+        </nav>
+
+        <main data-bs-spy="scroll" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example ms-5 px-0" tabindex="0">
+            <!-- Accueuil -->
+            <div class="header-full" id="accueuil" > 
+                <div class="center-div mx-auto pp">
+                    <img class="pp img-fluid box shadow-lg rounded-5" src="images/pp_carre.png">
+                    <p class="text-center fs-1 fw-bold mb-0 text-white">Da Silva Alexy</p>
+                    <p class="text-center fs-5 text-white">Bienvenue sur mon Portfolio</p>
+                    <div class="text-center my-0">
+                        <!-- GitHub -->
+                        <a href="https://github.com/Aleks38" target="_blank" class="text-decoration-none">
+                            <svg class="iconPresentation mx-2" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github mx-2" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                        </a>
+
+                        <!-- Linkedin -->
+                        <a href="https://www.linkedin.com/in/alexy-da-silva-54499b229/" target="_blank" class="text-decoration-none">
+                            <svg class="iconPresentation mx-2" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin mx-2" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
+            <!-- Fin accueuil -->
 
+            <div class="mb-15">
+                <hr class="line lighThemeBack" id="cv">
+            </div>
+
+            <!-- Voir le CV -->
+            <div class="mx-auto mb-15">
+                <a href="images/CV-DA SILVA-Alexy.pdf" target="_blank">
+                    <button type="button" class="btn btn-lg rounded-5 themeDetail centered textBtn"  >
+                        <p class="my-0 mx-4 text-uppercase fw-bold fs-6">Voir CV</p>
+                    </button>
+                </a>
+            </div>
+            <!-- Fin voir le CV -->
+
+            <!-- Presentation projet d'avenir -->
+            <div class="container mb-15" id="monProjet">
+                <div class="row mx-auto">
+                    <p class="fs-4 mb-5 text-white">Mon projet d'avenir :</p>
+                    <!-- Projet passe / present -->
+                    <div class="col mb-0 rounded-4 mx-2 textMonProjet">
+                        <p class="fs-2 mb-0 fw-bold text-center">PASSE / PRESENT</p>    
+                        <div class="mb-0 row">
+                            <div class=" mb-2 mt-0 fw-bold">
+                                <p class="text-start text-purple ms-3">2021 - Ajourd'hui</p>
+                            </div>
+                            <div class="offset-md-1 my-2 col-md-11">
+                                <p class="text-start">BTS SIO option SLAM* à l'institut supérieur Saint-Denis 07100 Annonay </p>
+                            </div>
+                            <div class="my-2 fw-bold">
+                                <p class="text-start text-purple ms-3">2019 - 2021</p>
+                            </div>
+                            <div class="offset-md-1 my-2 col-md-11">
+                                <p class="text-start">Bac Général option Mathématques, Physique Chimie et Numérique et Science Informatique</p>
+                            </div>  
+                        </div>
+                    </div>
+                    <!-- Fin projet passe / present -->
+
+                    <!-- Projet futur -->
+                    <div class="col mb-0 rounded-4 mx-2 textMonProjet">
+                        <p class="fs-2 mb-0 fw-bold text-center">Futur</p>
+                        <div class="mb-0 row">
+                            <div class="mb-2 mt-0 fw-bold ">
+                                <p class="text-start text-purple ms-3">2023 - 2025</p>
+                            </div>
+                            <div class="offset-md-1 my-2 col-md-11 ">
+                                <p class="text-start">Master Développement logiciel</p>
+                            </div>
+                            <div class="my-2 fw-bold ">
+                                <p class="text-start text-purple ms-3">2022 - 2023</p>
+                            </div>
+                            <div class="offset-md-1 my-2 col-md-11 ">
+                                <p class="text-start">Licence professionnelle Métiers de l'informatique : applications web</p>
+                            </div>  
+                        </div>
+                    </div>
+                    <!-- Fin projet futur -->
+
+                    <small class="text-muted text-start">*Solutions Logiciels et Applications Métiers </small>
+                </div>
+            </div>
+            <!-- Fin presentation projet d'avenir -->
+
+            <!-- Mes compétences -->
+            <div class="container mb-15" id="mesCompetences">
+                <div class="row">
+                    <!-- Ma presentation -->
+                    <div class="col-4">
+                        <div class="row h-100 justify-content-center align-items-center">
+                            <div class="text-center">
+                                <img class="pp-desc img-fluid" src="images/photo_de_profile2.png">
+                            </div>
+                            <div>
+                                <p class="text-center text-white me-2">
+                                    Je suis <strong>Da Silva Alexy</strong>, actuellement étudiant en 2ème année de <strong>BTS SIO</strong> option <strong>SLAM</strong> (Solutions Logiciels et Applications Métiers)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin ma presentation -->
+
+                    <div class="col-8 mx-auto px-5 py-5 rounded-5 textMonProjet position-relative">
+
+                        <div>
+                            <p class="fs-5 rounded-5 d-inline position-absolute top-0 start-50 translate-middle textMonProjet px-2">
+                                Mes compétences :
+                            </p>
+                        </div>
+
+                        <!-- Progress bar PHP -->
+                        <div>
+                            <div class="row my-2">
+                                <div class="col-lg-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="25" viewBox="0 0 256 134" preserveAspectRatio="xMinYMin meet">
+                                        <g fill-rule="evenodd">
+                                            <ellipse fill="#8993BE" cx="128" cy="66.63" rx="128" ry="66.63"/>
+                                            <path d="M35.945 106.082l14.028-71.014H82.41c14.027.877 21.041 7.89 21.041 20.165 
+                                            0 21.041-16.657 33.315-31.562 32.438H56.11l-3.507 18.411H35.945zm23.671-31.561L64 48.219h11.397c6.137 0 10.52 2.63 10.52 7.89-.876 14.905-7.89 17.535-15.78 18.412h-10.52zM100.192 
+                                            87.671l14.027-71.013h16.658l-3.507 18.41h15.78c14.028.877 19.288 7.89 17.535 16.658l-6.137 35.945h-17.534l6.137-32.438c.876-4.384.876-7.014-5.26-7.014H124.74l-7.89 39.452h-16.658zM153.425 
+                                            106.082l14.027-71.014h32.438c14.028.877 21.042 7.89 21.042 20.165 0 21.041-16.658 33.315-31.562 32.438h-15.781l-3.507 18.411h-16.657zm23.67-31.561l4.384-26.302h11.398c6.137 0 10.52 
+                                            2.63 10.52 7.89-.876 14.905-7.89 17.535-15.78 18.412h-10.521z" fill="#232531"/>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="col-lg-11 mx-auto my-auto">
+                                    <div class="progress" style="height: 1.5em";>
+                                        <div class="progress-bar bg-couleur-bar " role="progressbar" aria-label="Info example" style="width: 64%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Notion : maîtrisé</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fin progress bar PHP -->
+
+                        <!-- Progress bar SQL -->
+                        <div>
+                            <div class="row my-4">
+                                <div class="col-lg-1">
+                                    <svg width="40" height="40" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                        <path style="fill:#E2E5E7;" d="M128,0c-17.6,0-32,14.4-32,32v448c0,17.6,14.4,32,32,32h320c17.6,0,32-14.4,32-32V128L352,0H128z"/>
+                                        <path style="fill:#B0B7BD;" d="M384,128h96L352,0v96C352,113.6,366.4,128,384,128z"/>
+                                        <polygon style="fill:#CAD1D8;" points="480,224 384,128 480,128 "/>
+                                        <path style="fill:#F15642;" d="M416,416c0,8.8-7.2,16-16,16H48c-8.8,0-16-7.2-16-16V256c0-8.8,7.2-16,16-16h352c8.8,0,16,7.2,16,16
+                                            V416z"/>
+                                        <g>
+                                            <path style="fill:#FFFFFF;" d="M98.128,314.672c2.944-24.832,40.416-29.296,58.064-15.728c8.704,7.024-0.496,18.16-8.192,12.528
+                                                c-9.456-6-30.96-8.816-33.648,4.464c-3.456,20.992,52.208,8.976,51.296,43.008c-0.896,32.496-47.968,33.248-65.632,18.672
+                                                c-4.224-3.456-4.096-9.072-1.776-12.544c3.312-3.312,7.024-4.464,11.376-0.88c10.496,7.152,37.488,12.528,39.408-5.648
+                                                C147.376,339.632,94.16,351.008,98.128,314.672z"/>
+                                            <path style="fill:#FFFFFF;" d="M265.488,369.424l2.048,2.416c8.432,7.68-2.56,20.224-11.136,12.16l-4.336-3.44
+                                                c-6.656,4.592-14.448,6.784-24.816,6.784c-22.512,0-48.24-15.504-48.24-46.976s25.584-47.456,48.24-47.456
+                                                c23.776,0,47.072,15.984,47.072,47.456C274.32,352.528,271.232,361.504,265.488,369.424z M257.792,340.368
+                                                c0-20.336-15.984-30.688-30.56-30.688c-15.728,0-31.216,10.336-31.216,30.688c0,15.504,13.168,30.208,31.216,30.208
+                                                c4.592,0,9.072-1.152,13.552-2.304l-14.576-13.44c-6.784-8.192,3.968-19.84,12.528-12.288l14.464,14.448
+                                                C256.384,352.528,257.792,347.024,257.792,340.368z"/>
+                                            <path style="fill:#FFFFFF;" d="M293.168,303.152c0-4.224,3.584-7.808,8.064-7.808c4.096,0,7.552,3.6,7.552,7.808v64.096h34.8
+                                                c12.528,0,12.8,16.752,0,16.752h-42.336c-4.48,0-8.064-3.184-8.064-7.792v-73.056H293.168z"/>
+                                        </g>
+                                        <path style="fill:#CAD1D8;" d="M400,432H96v16h304c8.8,0,16-7.2,16-16v-16C416,424.8,408.8,432,400,432z"/>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="col-lg-11 mx-auto my-auto">
+                                    <div class="progress" style="height: 1.5em";>
+                                        <div class="progress-bar bg-couleur-bar" role="progressbar" aria-label="Info example" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Notion : Avancé</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fin progress bar SQL -->
+
+                        <!-- Progress bar C# -->
+                        <div>
+                            <div class="row my-4">
+                                <div class="col-lg-1">
+                                    <svg width="40" height="40" viewBox="0 0 256 288" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                                        <g>
+                                            <path d="M255.569,84.452376 C255.567,79.622376 254.534,75.354376 252.445,71.691376 C250.393,68.089376 247.32,65.070376 243.198,62.683376 C209.173,43.064376 175.115,23.505376 141.101,3.86637605 C131.931,-1.42762395 123.04,-1.23462395 113.938,4.13537605 C100.395,12.122376 32.59,50.969376 12.385,62.672376 C4.064,67.489376 0.015,74.861376 0.013,84.443376 C0,123.898376 0.013,163.352376 0,202.808376 C0,207.532376 0.991,211.717376 2.988,215.325376 C5.041,219.036376 8.157,222.138376 12.374,224.579376 C32.58,236.282376 100.394,275.126376 113.934,283.115376 C123.04,288.488376 131.931,288.680376 141.104,283.384376 C175.119,263.744376 209.179,244.186376 243.209,224.567376 C247.426,222.127376 250.542,219.023376 252.595,215.315376 C254.589,211.707376 255.582,207.522376 255.582,202.797376 C255.582,202.797376 255.582,123.908376 255.569,84.452376" fill="#A179DC" fill-rule="nonzero"></path>
+                                            <path d="M128.182,143.241376 L2.988,215.325376 C5.041,219.036376 8.157,222.138376 12.374,224.579376 C32.58,236.282376 100.394,275.126376 113.934,283.115376 C123.04,288.488376 131.931,288.680376 141.104,283.384376 C175.119,263.744376 209.179,244.186376 243.209,224.567376 C247.426,222.127376 250.542,219.023376 252.595,215.315376 L128.182,143.241376" fill="#280068" fill-rule="nonzero"></path>
+                                            <path d="M255.569,84.452376 C255.567,79.622376 254.534,75.354376 252.445,71.691376 L128.182,143.241376 L252.595,215.315376 C254.589,211.707376 255.58,207.522376 255.582,202.797376 C255.582,202.797376 255.582,123.908376 255.569,84.452376" fill="#390091" fill-rule="nonzero"></path>
+                                            <path d="M201.892326,116.294008 L201.892326,129.767692 L215.36601,129.767692 L215.36601,116.294008 L222.102852,116.294008 L222.102852,129.767692 L235.576537,129.767692 L235.576537,136.504534 L222.102852,136.504534 L222.102852,149.978218 L235.576537,149.978218 L235.576537,156.71506 L222.102852,156.71506 L222.102852,170.188744 L215.36601,170.188744 L215.36601,156.71506 L201.892326,156.71506 L201.892326,170.188744 L195.155484,170.188744 L195.155484,156.71506 L181.6818,156.71506 L181.6818,149.978218 L195.155484,149.978218 L195.155484,136.504534 L181.6818,136.504534 L181.6818,129.767692 L195.155484,129.767692 L195.155484,116.294008 L201.892326,116.294008 Z M215.36601,136.504534 L201.892326,136.504534 L201.892326,149.978218 L215.36601,149.978218 L215.36601,136.504534 Z" fill="#FFFFFF"></path>
+                                            <path d="M128.456752,48.625876 C163.600523,48.625876 194.283885,67.7121741 210.718562,96.0819435 L210.558192,95.808876 L169.209615,119.617159 C161.062959,105.823554 146.128136,96.5150717 128.996383,96.3233722 L128.456752,96.3203544 C102.331178,96.3203544 81.1506705,117.499743 81.1506705,143.625316 C81.1506705,152.168931 83.4284453,160.17752 87.3896469,167.094792 C95.543745,181.330045 110.872554,190.931398 128.456752,190.931398 C146.149522,190.931398 161.565636,181.208041 169.67832,166.820563 L169.481192,167.165876 L210.767678,191.083913 C194.51328,219.21347 164.25027,238.240861 129.514977,238.620102 L128.456752,238.625876 C93.2021701,238.625876 62.4315028,219.422052 46.0382398,190.902296 C38.0352471,176.979327 33.4561922,160.837907 33.4561922,143.625316 C33.4561922,91.1592636 75.9884604,48.625876 128.456752,48.625876 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="col-lg-11 mx-auto my-auto">
+                                    <div class="progress" style="height: 1.5em";>
+                                        <div class="progress-bar bg-couleur-bar" role="progressbar" aria-label="Info example" style="width: 66%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Notion : Maîtrisé</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fin progress bar C# -->
+
+                        <!-- Progress bar Python -->
+                        <div>
+                            <div class="row my-2">
+                                <div class="col-lg-1">
+                                    <svg width="40px" height="40px" viewBox="0 0 256 255" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                                        <defs>
+                                            <linearGradient x1="12.9593594%" y1="12.0393928%" x2="79.6388325%" y2="78.2008538%" id="linearGradient-1">
+                                                <stop stop-color="#387EB8" offset="0%"></stop>
+                                                <stop stop-color="#366994" offset="100%"></stop>
+                                            </linearGradient>
+                                            <linearGradient x1="19.127525%" y1="20.5791813%" x2="90.7415328%" y2="88.4290372%" id="linearGradient-2">
+                                                <stop stop-color="#FFE052" offset="0%"></stop>
+                                                <stop stop-color="#FFC331" offset="100%"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                        <g>
+                                            <path d="M126.915866,0.0722755491 C62.0835831,0.0722801733 66.1321288,28.1874648 66.1321288,28.1874648 L66.2044043,57.3145115 L128.072276,57.3145115 L128.072276,66.0598532 L41.6307171,66.0598532 C41.6307171,66.0598532 0.144551098,61.3549438 0.144551098,126.771315 C0.144546474,192.187673 36.3546019,189.867871 36.3546019,189.867871 L57.9649915,189.867871 L57.9649915,159.51214 C57.9649915,159.51214 56.8001363,123.302089 93.5968379,123.302089 L154.95878,123.302089 C154.95878,123.302089 189.434218,123.859386 189.434218,89.9830604 L189.434218,33.9695088 C189.434218,33.9695041 194.668541,0.0722755491 126.915866,0.0722755491 L126.915866,0.0722755491 L126.915866,0.0722755491 Z M92.8018069,19.6589497 C98.9572068,19.6589452 103.932242,24.6339846 103.932242,30.7893845 C103.932246,36.9447844 98.9572068,41.9198193 92.8018069,41.9198193 C86.646407,41.9198239 81.6713721,36.9447844 81.6713721,30.7893845 C81.6713674,24.6339846 86.646407,19.6589497 92.8018069,19.6589497 L92.8018069,19.6589497 L92.8018069,19.6589497 Z" fill="url(#linearGradient-1)"></path>
+                                            <path d="M128.757101,254.126271 C193.589403,254.126271 189.540839,226.011081 189.540839,226.011081 L189.468564,196.884035 L127.600692,196.884035 L127.600692,188.138693 L214.042251,188.138693 C214.042251,188.138693 255.528417,192.843589 255.528417,127.427208 C255.52844,62.0108566 219.318366,64.3306589 219.318366,64.3306589 L197.707976,64.3306589 L197.707976,94.6863832 C197.707976,94.6863832 198.87285,130.896434 162.07613,130.896434 L100.714182,130.896434 C100.714182,130.896434 66.238745,130.339138 66.238745,164.215486 L66.238745,220.229038 C66.238745,220.229038 61.0044225,254.126271 128.757101,254.126271 L128.757101,254.126271 L128.757101,254.126271 Z M162.87116,234.539597 C156.715759,234.539597 151.740726,229.564564 151.740726,223.409162 C151.740726,217.253759 156.715759,212.278727 162.87116,212.278727 C169.026563,212.278727 174.001595,217.253759 174.001595,223.409162 C174.001618,229.564564 169.026563,234.539597 162.87116,234.539597 L162.87116,234.539597 L162.87116,234.539597 Z" fill="url(#linearGradient-2)"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="col-lg-11 mx-auto my-auto" >
+                                    <div class="progress" style="height: 1.5em";>
+                                        <div class="progress-bar bg-couleur-bar" role="progressbar" aria-label="Info example" style="width: 33%">Notion : De base</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fin progress bar Python -->
+                    </div>
+                </div>
+            </div>
+            <!-- Fin mes compétences -->
+
+            <!-- Presentation BTS SIO -->
+            <div class="col-8 mx-auto mb-15" id="BTS">
+                <p class="fs-4 mb-5 text-white">Le BTS SIO : <span class="fs-6">(D'après ChatGPT)</span></p>
+                <p class="fs-6 lh-sm text-white">
+                    Le <span class="badge rounded-pill text-bg-purple">BTS SIO</span> (Brevet de Technicien Supérieur en Services Informatiques aux Organisations) est un diplôme de niveau bac+2 qui forme les étudiants aux métiers de l'informatique et du développement d'applications. Il est proposé dans les lycées et les centres de formation en France. 
+                    <br><br>
+                    Le BTS SIO est divisé en deux spécialisations: <span class="badge rounded-pill text-bg-purple">SISR</span> (Solutions d'Infrastructure, de Systèmes et de Réseaux) et <span class="badge rounded-pill text-bg-purple">SLAM</span> (Solutions Logicielles et Applications Métiers). 
+                    <br><br>                
+                    Le BTS SIO est accessible après <span class="badge rounded-pill text-bg-purple"> un bac général </span> ou <span class="badge rounded-pill text-bg-purple"> technologique </span> ou <span class="badge rounded-pill text-bg-purple"> un bac professionnel </span>. Les étudiants suivent des cours théoriques et pratiques et réalisent des stages en entreprise. 
+                    <br><br>
+                    Le BTS SIO permet aux étudiants de se spécialiser dans les métiers de l'informatique et de développer des compétences en matière de <span class="badge rounded-pill text-bg-purple"> gestion de projets </span> informatiques, de <span class="badge rounded-pill text-bg-purple"> développement 
+                    d'applications métier </span> et de <span class="badge rounded-pill text-bg-purple"> conseil en systèmes d'information </span>. 
+                    <br><br>
+                    En résumé, le BTS SIO est une formation professionnelle qui <span class="badge rounded-pill text-bg-purple"> prépare </span> aux métiers de l'informatique et du développement d'applications.
+                </p>
+
+            </div>
+
+            <!-- Fin presentation BTS SIO -->
+
+            <!-- Projets -->
+            <div class="container mb-15" id="projet">
+                <p class="fs-4 mb-5 text-white ms-5">Mes projets :</p>
+                <div class="row col-10 mx-auto" >
+
+                    <!-- Projet Gestion Immobilière -->
+                    <div class="example m-2 p-0 rounded-3 card" style="width: 300px; height: 450px;" >
+                        <img class="imgCards" src="images/Projet_Gestion-Immobiliere_miniature.jpg" />
+                        
+                        <div class="fadedbox text-start p-3">
+                            <p class="fs-4 fw-bold mb-3 card-title d-block text-start">Gestion Immobilière</p>
+                            <p class="fs-6 mb-3 card-text d-block">Le but de ce projet est de pouvoir suivre son patrimoine immobilié grâce à une application sur votre bureau et avoir quelque fonctionnalité en plus. Pour cela nous avons utilisé le framwork <strong>WPF</strong> avec l'ORM <strong>Entity Framework</strong>. </p>
+                            <p class="fs-6 fw-bold card-text d-block">BTS SIO 2eme année</p>
+                            <div class="d-block my-4">
+                                <div class="d-inline">
+                                    <svg height="2em" width="2em" preserveAspectRatio="xMidYMid" viewBox="0 -1.428 255.582 290.108" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="m255.569 84.452c-.002-4.83-1.035-9.098-3.124-12.76-2.052-3.603-5.125-6.622-9.247-9.009-34.025-19.619-68.083-39.178-102.097-58.817-9.17-5.294-18.061-5.1-27.163.27-13.543 7.986-81.348 46.833-101.553 58.536-8.321 4.818-12.37 12.19-12.372 21.771-.013 39.455 0 78.91-.013 118.365 0 4.724.991 8.91 2.988 12.517 2.053 3.711 5.169 6.813 9.386 9.254 20.206 11.703 88.02 50.547 101.56 58.536 9.106 5.373 17.997 5.565 27.17.27 34.015-19.64 68.075-39.199 102.105-58.818 4.217-2.44 7.333-5.544 9.386-9.252 1.994-3.608 2.987-7.793 2.987-12.518 0 0 0-78.889-.013-118.345" fill="#a179dc"/>
+                                        <path d="m128.182 143.241-125.194 72.084c2.053 3.711 5.169 6.813 9.386 9.254 20.206 11.703 88.02 50.547 101.56 58.536 9.106 5.373 17.997 5.565 27.17.27 34.015-19.64 68.075-39.199 102.105-58.818 4.217-2.44 7.333-5.544 9.386-9.252z" fill="#280068"/>
+                                        <path d="m255.569 84.452c-.002-4.83-1.035-9.098-3.124-12.76l-124.263 71.55 124.413 72.073c1.994-3.608 2.985-7.793 2.987-12.518 0 0 0-78.889-.013-118.345" fill="#390091"/>
+                                        <g fill="#fff">
+                                            <path d="m201.892 116.294v13.474h13.474v-13.474h6.737v13.474h13.474v6.737h-13.474v13.473h13.474v6.737h-13.474v13.474h-6.737v-13.474h-13.474v13.474h-6.737v-13.474h-13.473v-6.737h13.473v-13.473h-13.473v-6.737h13.473v-13.474zm13.474 20.21h-13.474v13.474h13.474z"/>
+                                            <path d="m128.457 48.626c35.144 0 65.827 19.086 82.262 47.456l-.16-.273-41.35 23.808c-8.146-13.793-23.08-23.102-40.213-23.294l-.54-.003c-26.125 0-47.305 21.18-47.305 47.305a47.08 47.08 0 0 0 6.239 23.47c8.154 14.235 23.483 23.836 41.067 23.836 17.693 0 33.109-9.723 41.221-24.11l-.197.345 41.287 23.918c-16.255 28.13-46.518 47.157-81.253 47.536l-1.058.006c-35.255 0-66.025-19.204-82.419-47.724-8.003-13.923-12.582-30.064-12.582-47.277 0-52.466 42.532-95 95-95z"/>
+                                        </g>
+                                    </svg>
+                                </div>
+
+                                <p class="m-0 d-inline">
+                                    C# WPF
+                                </p>
+                            </div>
+                            <a href="https://github.com/Aleks38/Gestion-Immobiliere"  target="_blank" class="d-block">
+                                <div class="fs-6 rounded-5 position-absolute px-3 py-1 btnMoreCs row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-github col-auto my-auto p-0 me-2" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                    <p class="col-auto m-0 pe-0">
+                                        Voir plus
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Fin projet Gestion Immobilière -->
+
+                    <!-- Projet Overwatch Site -->
+                    <div class="example m-2 p-0 rounded-3" style="width: 300px; height: 450px;">
+                        <img class="imgCards" src="images/Projet_Overwatch_miniature.jpg" />
+                        
+                        <div class="fadedbox text-start p-3">
+                            <p class="fs-4 fw-bold mb-3 card-title d-block text-start">Overwatch site</p>
+                            <p class="fs-6 mb-3 card-text d-block">Ce projet était un exercice de fin de première année. Le but était de faire un site sur un sujet que nous aimions tout en ayant une relation avec une <strong>base de donnée</strong> pour qu'un utilisateur puisse se connecter.</p>
+                            <p class="fs-6 fw-bold card-text d-block">BTS SIO 1re année</p>
+                          
+                            <div class="d-block my-4">
+                                <div class="d-inline">
+                                    <svg width="2em" height="1em" viewBox="0 0 256 134" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">
+                                        <g fill-rule="evenodd">
+                                            <ellipse fill="#8993BE" cx="128" cy="66.63" rx="128" ry="66.63"/>
+                                            <path d="M35.945 106.082l14.028-71.014H82.41c14.027.877 21.041 7.89 21.041 20.165 0 21.041-16.657 33.315-31.562 32.438H56.11l-3.507 18.411H35.945zm23.671-31.561L64 48.219h11.397c6.137 0 10.52 2.63 10.52 7.89-.876 14.905-7.89 17.535-15.78 18.412h-10.52zM100.192 87.671l14.027-71.013h16.658l-3.507 18.41h15.78c14.028.877 19.288 7.89 17.535 16.658l-6.137 35.945h-17.534l6.137-32.438c.876-4.384.876-7.014-5.26-7.014H124.74l-7.89 39.452h-16.658zM153.425 106.082l14.027-71.014h32.438c14.028.877 21.042 7.89 21.042 20.165 0 21.041-16.658 33.315-31.562 32.438h-15.781l-3.507 18.411h-16.657zm23.67-31.561l4.384-26.302h11.398c6.137 0 10.52 2.63 10.52 7.89-.876 14.905-7.89 17.535-15.78 18.412h-10.521z" fill="#232531"/>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <p class="m-0 d-inline">
+                                    PHP Natif
+                                </p>
+                            </div>
+                            <a href="https://github.com/Aleks38/OverwatchSite" target="_blank" class="d-block">
+                                <div class="fs-6 rounded-5 position-absolute px-3 py-1 btnMorePHP row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-github col-auto my-auto p-0 me-2" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                    <p class="col-auto m-0 pe-0">
+                                        Voir plus
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Fin projet Overwatch Site -->
+
+                    <!-- Projet Pygame -->
+                    <div class="example m-2 p-0 rounded-3" style="width: 300px; height: 450px;">
+                        <img class="imgCards" src="images/Projet_Pygame_miniature.jpg" />
+                        
+                        <div class="fadedbox text-start p-3">
+                            <p class="fs-4 fw-bold mb-3 card-title d-block text-start">Le jeu le plus dur du monde</p>
+                            <p class="fs-6 mb-3 card-text d-block">Ce projet est un jeu s'inspirant fortement du jeu qui s'appel "World's Hardest Game". Le jeu a été réalisé avec deux autres personnes, nous nous sommes donc répartit les tâches. La technologie utilisée est la bibliothèque python pygame. </p>
+                            <p class="fs-6 fw-bold card-text d-block">BTS SIO 1re année</p>
+                            <div class="d-block my-4">
+                                <div class="d-inline">
+                                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="2em" height="em">
+                                        <path fill="#0277BD" d="M24.047,5c-1.555,0.005-2.633,0.142-3.936,0.367c-3.848,0.67-4.549,2.077-4.549,4.67V14h9v2H15.22h-4.35c-2.636,0-4.943,1.242-5.674,4.219c-0.826,3.417-0.863,5.557,0,9.125C5.851,32.005,7.294,34,9.931,34h3.632v-5.104c0-2.966,2.686-5.896,5.764-5.896h7.236c2.523,0,5-1.862,5-4.377v-8.586c0-2.439-1.759-4.263-4.218-4.672C27.406,5.359,25.589,4.994,24.047,5z M19.063,9c0.821,0,1.5,0.677,1.5,1.502c0,0.833-0.679,1.498-1.5,1.498c-0.837,0-1.5-0.664-1.5-1.498C17.563,9.68,18.226,9,19.063,9z"/><path fill="#FFC107" d="M23.078,43c1.555-0.005,2.633-0.142,3.936-0.367c3.848-0.67,4.549-2.077,4.549-4.67V34h-9v-2h9.343h4.35c2.636,0,4.943-1.242,5.674-4.219c0.826-3.417,0.863-5.557,0-9.125C41.274,15.995,39.831,14,37.194,14h-3.632v5.104c0,2.966-2.686,5.896-5.764,5.896h-7.236c-2.523,0-5,1.862-5,4.377v8.586c0,2.439,1.759,4.263,4.218,4.672C19.719,42.641,21.536,43.006,23.078,43z M28.063,39c-0.821,0-1.5-0.677-1.5-1.502c0-0.833,0.679-1.498,1.5-1.498c0.837,0,1.5,0.664,1.5,1.498C29.563,38.32,28.899,39,28.063,39z"/>
+                                    </svg>
+                                </div>
+                                <p class="m-0 d-inline">
+                                    Python Pygame
+                                </p>
+                            </div>
+                            <a href="https://github.com/Aleks38/World-s-Hardest-Game" target="_blank" class="d-block">
+                                <div class="fs-6 rounded-5 position-absolute px-3 py-1 btnMorePy row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-github col-auto my-auto p-0 me-2" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                    <p class="col-auto m-0 pe-0">
+                                        Voir plus
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Fin projet Pygame -->
+
+                    <!-- Projet Laravel -->
+                    <div class="example m-2 p-0 rounded-3" style="width: 300px; height: 450px;">
+                        <img class="imgCards" src="images/Projet_Laravel_miniature.jpg" />
+                        
+                        <div class="fadedbox text-start p-3">
+                            <p class="fs-4 fw-bold mb-3 card-title d-block text-start">Gestion de ticket</p>
+                            <p class="fs-6 mb-3 card-text d-block">Ce projet est est une application web que j'ai reprise en cours de développement lors de mon stage chez <strong>Fitnesse Boutique</strong> à Voiron. Il consistait à trier les différents tickets qui arrivaient au service informatique de l'entreprise et de pouvoir en avoir une trace et donc les retrouver. </p>
+                            <p class="fs-6 fw-bold card-text d-block">Stage BTS SIO 1re année</p>
+                            <div class="d-block my-4">
+                                <div class="d-inline">
+                                    <svg  viewBox="0 -.11376601 49.74245785 51.31690859" height="2em" width="2em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="m49.626 11.564a.809.809 0 0 1 .028.209v10.972a.8.8 0 0 1 -.402.694l-9.209 5.302v10.509c0 .286-.152.55-.4.694l-19.223 11.066c-.044.025-.092.041-.14.058-.018.006-.035.017-.054.022a.805.805 0 0 1 -.41 0c-.022-.006-.042-.018-.063-.026-.044-.016-.09-.03-.132-.054l-19.219-11.066a.801.801 0 0 1 -.402-.694v-32.916c0-.072.01-.142.028-.21.006-.023.02-.044.028-.067.015-.042.029-.085.051-.124.015-.026.037-.047.055-.071.023-.032.044-.065.071-.093.023-.023.053-.04.079-.06.029-.024.055-.05.088-.069h.001l9.61-5.533a.802.802 0 0 1 .8 0l9.61 5.533h.002c.032.02.059.045.088.068.026.02.055.038.078.06.028.029.048.062.072.094.017.024.04.045.054.071.023.04.036.082.052.124.008.023.022.044.028.068a.809.809 0 0 1 .028.209v20.559l8.008-4.611v-10.51c0-.07.01-.141.028-.208.007-.024.02-.045.028-.068.016-.042.03-.085.052-.124.015-.026.037-.047.054-.071.024-.032.044-.065.072-.093.023-.023.052-.04.078-.06.03-.024.056-.05.088-.069h.001l9.611-5.533a.801.801 0 0 1 .8 0l9.61 5.533c.034.02.06.045.09.068.025.02.054.038.077.06.028.029.048.062.072.094.018.024.04.045.054.071.023.039.036.082.052.124.009.023.022.044.028.068zm-1.574 10.718v-9.124l-3.363 1.936-4.646 2.675v9.124l8.01-4.611zm-9.61 16.505v-9.13l-4.57 2.61-13.05 7.448v9.216zm-36.84-31.068v31.068l17.618 10.143v-9.214l-9.204-5.209-.003-.002-.004-.002c-.031-.018-.057-.044-.086-.066-.025-.02-.054-.036-.076-.058l-.002-.003c-.026-.025-.044-.056-.066-.084-.02-.027-.044-.05-.06-.078l-.001-.003c-.018-.03-.029-.066-.042-.1-.013-.03-.03-.058-.038-.09v-.001c-.01-.038-.012-.078-.016-.117-.004-.03-.012-.06-.012-.09v-21.483l-4.645-2.676-3.363-1.934zm8.81-5.994-8.007 4.609 8.005 4.609 8.006-4.61-8.006-4.608zm4.164 28.764 4.645-2.674v-20.096l-3.363 1.936-4.646 2.675v20.096zm24.667-23.325-8.006 4.609 8.006 4.609 8.005-4.61zm-.801 10.605-4.646-2.675-3.363-1.936v9.124l4.645 2.674 3.364 1.937zm-18.422 20.561 11.743-6.704 5.87-3.35-8-4.606-9.211 5.303-8.395 4.833z" fill="#ff2d20"/>
+                                    </svg>
+                                </div>
+                                <p class="m-0 d-inline my-auto">
+                                    PHP Laravel
+                                </p>
+                            </div>
+                            <a href="#" target="_blank" class="d-block">
+                                <div class="fs-6 rounded-5 position-absolute px-3 py-1 btnMoreLa row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-github col-auto my-auto p-0 me-2" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                    <p class="col-auto m-0 pe-0">
+                                        Voir plus
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Fin projet Lravel -->
+                </div>
+            </div>
+            <!-- Fin projets -->
+
+            <!-- Presentation veille informatique -->
+            <div class="col-8 mx-auto mb-15 row bg-veille p-4 rounded-5 position-relative" id="veille">
+                <img src="images/Blockchain.jpg" class="rounded-5 blockChainImg p-0 my-auto ms-1 me-3" alt="BlockChain">
+
+                <div class="col my-auto">
+                    <p class="fs-1 text-white">
+                        <a href="veille_techno.php" class="text-white">Ma veille informatique</a>
+                    </p>
+
+                    <p class="fs-3 text-white">
+                        La <a href="veille_techno.php" class="text-white">Blockchain</a> qu'est ce que c'est ?
+                    </p>
+
+                    <p class="fs-5 text-white">
+                        C'est une technologie de stockage et de transmission d'informations, prenant la forme d'une base de données 
+                        qui a la particularité d'être partagée simultanément avec tous ses utilisateurs et qui ne dépend d'aucun 
+                        organe central et a pour avantage d'être rapide et sécurisée.
+                    </p>
+                </div>
+
+                <a href="veille_techno.php" class="">
+                    <div>
+                        <p class="fs-5 rounded-5 d-inline position-absolute top-100 start-50 translate-middle px-3 py-1 btnMore">
+                            En savoir plus
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <!-- Fin presentation veille informatique -->
+            
+            <!-- Formulaire de contact -->
+            <div class="col-8 mx-auto mb-15" id="contact">
+                <div class="row">
+                    <div class="col-3">
+                        <p class="fs-2 fw-bold text-purple">
+                            Contact :
+                        </p>
+                    </div>
+                    <div class="col-9 px-2">
+                        <form method="post" class="row">
+                            <div class="col-md-6 pe-2">
+                                <input type="text" class="form-control col-6 my-2 rounded-5" name="prenom" placeholder="Prénom" required>
+                            </div>
+                            <div class="col-md-6 ps-2">
+                                <input type="text" class="form-control col-6 my-2 rounded-5" name="prenom" placeholder="Nom" required>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="email" class="form-control my-2 rounded-5" name="email" placeholder="Adresse mail" required>
+                            </div>
+                            <div class="col-md-12">
+                                <textarea class="form-control my-2 rounded-4" name="message" rows="5" placeholder="Texte" required></textarea>
+                            </div>
+                            <div class="my-2">
+                                <button type="submit" class="btn btn-purple rounded-5">
+                                    <p class="d-inline fw-bold">
+                                        Envoyer
+                                    </p>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <?php
+                if (isset($_POST['message'])) {
+                    $retour = mail('portfolio2022bts@gmail.com', 'Envoi depuis la page Contact', $_POST['message'],'From: webmaster@monsite.fr' . "\r\n" . 'Reply-to: ' . $_POST['email']);
+                    if($retour)
+                        echo '<p>Votre message a bien été envoyé.</p>';
+                }
+                ?>
+            </div>
+            <!-- Fin formulaire de contact -->
+
+            <!-- Boutton retour haut de page -->
+            <div id="scrollUp">
+                <a href="#top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor" class="colorSVGIcon" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+                    </svg> 
+                </a>
+            </div>
+
+            <script>
+                jQuery(function(){
+                    $(function () {
+                        $(window).scroll(function () {
+                            if ($(this).scrollTop() > 200 ) { 
+                                $('#scrollUp').css('right','2em');
+                            } else { 
+                                $('#scrollUp').removeAttr( 'style' );
+                            }
+                        });
+                    });
+                });
+            </script>
+            <!-- Fin boutton retour haut de page -->
+            
+        </main>
     </body>
 </html>

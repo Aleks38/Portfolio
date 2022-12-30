@@ -12,11 +12,11 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 
-        <nav id="navbar-example2 shadow-lg" class="navbar">
-            <div class="vertical-nav mt-0 test2" id="sidebar">
+        <!-- <nav id="navbar-example2 " class="navbar"> -->
+            <div class="vertical-nav test2 mt-0 shadow-lg" id="sidebar">
                 <ul class="nav nav-pills flex-column mb-0">
                     <!-- Logo accueuil -->
-                    <li class="nav-item my-5 box" title="Accueuil">
+                    <li class="nav-item my-5 box mx-4" title="Accueuil">
                         <a class="nav-link" href="index.php">
                             <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" zoomAndPan="magnify" viewBox="0 0 375 374.999991" preserveAspectRatio="xMidYMid meet" version="1.0">
                                 <defs>
@@ -157,7 +157,7 @@
                     </p>
                 </div>
             </div>
-        </nav>
+        <!-- </nav> -->
 
         <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
             <div class="ms-10 text-white">
