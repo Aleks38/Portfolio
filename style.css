@@ -349,6 +349,19 @@ a.text-white:hover{
   outline-offset: -2px;
 }
 
+.btnMoreMa{
+  color: #ee8325;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.btnMoreMa:hover {
+  color: #ee8325;
+  background-color: white;
+  outline: 2px solid #a82255;
+  outline-offset: -2px;
+}
+
 .dropdown .dropdown-toggle::after {
   opacity: 0;
 }
@@ -410,4 +423,36 @@ a.text-white:hover{
 
 .row{
   --bs-gutter-x: 0 !important;
+}
+
+.mockTitle {
+  font-size: 4em;
+}
+.stagiaireImg{
+  width: 20em;
+  height: 20em
+}
+
+.procedeImg {
+  background-color : #1d1d1d
+}
+
+.iconQIIS{
+  width: 5em;
+  height: 5em;
+}
+
+.link:hover {
+  color: white;
+}
+
+.iconFB {
+  width: 10em;
+  height: 10em;
+}
+
+.fbIMG {
+  width: 32em;
+  height: 20em;
+  margin-right: 2em;
 }

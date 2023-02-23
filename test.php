@@ -71,7 +71,7 @@
                         </svg>
                     </a>
                 </li>
-                <!-- Icone CV -->
+                <!-- Icon CV -->
                 <li class="nav-item my-3" title="CV">
                     <a class="nav-link" href="#cv">
                         <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-file-earmark-person" viewBox="0 0 16 16">
@@ -81,7 +81,7 @@
                     </a>
                 </li>
 
-                <!-- Icone études --> 
+                <!-- Icon études --> 
                 <li class="nav-item my-3" title="Eudes">
                     <a class="nav-link" href="#monProjet">
                         <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1.5em" height="1.5em" viewBox="0 0 512.004 512.004" xml:space="preserve">
@@ -97,7 +97,7 @@
                     </a>
                 </li>
 
-                <!-- Icone compétences -->
+                <!-- Iconcompétences -->
                 <li class="nav-item my-3" title="Compétences">
                     <a class="nav-link" href="#mesCompetences">
                         <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1.7em" height="1.7em" viewBox="0 0 297 297">
@@ -133,7 +133,7 @@
                     </a>
                 </li>
 
-                <!-- Icone BTS SIO -->
+                <!-- Icon BTS SIO -->
                 <li class="nav-item my-3" title="BTS SIO">
                     <a class="nav-link" href="#BTS">
                         <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 16">
@@ -142,7 +142,7 @@
                     </a>
                 </li>
 
-                <!-- Icone projets -->
+                <!-- Icon projets -->
                 <li class="nav-item my-3" title="Projets">
                     <a class="nav-link" href="#projet">  
                         <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 16">
@@ -151,7 +151,7 @@
                     </a>
                 </li>
 
-                <!-- Icone veille technologique-->
+                <!-- Icon veille technologique-->
                 <li class="nav-item my-3" title="Veille technologique">
                     <a class="nav-link" href="#veille">  
                         <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 16">
@@ -160,7 +160,7 @@
                     </a>
                 </li>
 
-                <!-- Icone contact -->
+                <!-- Icon contact -->
                 <li class="nav-item my-3" title="Contact">
                     <a class="nav-link" href="#contact">
                         <svg class="centerSVG colorSVGIcon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 16 16">
